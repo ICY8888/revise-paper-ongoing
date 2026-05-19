@@ -1,0 +1,3016 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ref51}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8fd291e682fb8b54cc8c00cf48b0a378}{%
+           family={Balbaguio},
+           familyi={B\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=0011ba3438099d70f3ad55e39da7c298}{%
+           family={Cristobal},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=858ddb63cfd34ac45a6a6e6907a8a7a8}{%
+           family={Arquintillo},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e80d5f679eac8c3c05d0450444053d0}
+      \strng{fullhash}{2e80d5f679eac8c3c05d0450444053d0}
+      \strng{fullhashraw}{2e80d5f679eac8c3c05d0450444053d0}
+      \strng{bibnamehash}{2e80d5f679eac8c3c05d0450444053d0}
+      \strng{authorbibnamehash}{2e80d5f679eac8c3c05d0450444053d0}
+      \strng{authornamehash}{2e80d5f679eac8c3c05d0450444053d0}
+      \strng{authorfullhash}{2e80d5f679eac8c3c05d0450444053d0}
+      \strng{authorfullhashraw}{2e80d5f679eac8c3c05d0450444053d0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IOER International Multidisciplinary Research Journal}
+      \field{number}{4}
+      \field{title}{Status of Queuing Operations During COVID-19 Pandemic as Perceived by the Drivers, Operators, and Passengers}
+      \field{volume}{3}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.ioer-imrj.com/wp-content/uploads/2021/10/Status-of-Queuing-Operations-during-COVID-%E2%80%93-19-Pandemic-as-perceived-by-the-Drivers-Operators-and-Passengers.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ioer-imrj.com/wp-content/uploads/2021/10/Status-of-Queuing-Operations-during-COVID-%E2%80%93-19-Pandemic-as-perceived-by-the-Drivers-Operators-and-Passengers.pdf
+      \endverb
+    \endentry
+    \entry{ref87}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=4e7e39e79413b7afe3fa71e153343ef4}{%
+           family={Maala},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=fa34816ffeda4146eb004ee5e786b1f0}{%
+           family={Sebua},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi B.},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=218149b2b185228cfb0e9939189c6d1a}{%
+           family={Evangelista},
+           familyi={E\bibinitperiod},
+           given={K.\bibnamedelimi L.\bibnamedelimi L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{69e33f16f9fffcd3dcf33e971f8ae158}
+      \strng{fullhash}{69e33f16f9fffcd3dcf33e971f8ae158}
+      \strng{fullhashraw}{69e33f16f9fffcd3dcf33e971f8ae158}
+      \strng{bibnamehash}{69e33f16f9fffcd3dcf33e971f8ae158}
+      \strng{authorbibnamehash}{69e33f16f9fffcd3dcf33e971f8ae158}
+      \strng{authornamehash}{69e33f16f9fffcd3dcf33e971f8ae158}
+      \strng{authorfullhash}{69e33f16f9fffcd3dcf33e971f8ae158}
+      \strng{authorfullhashraw}{69e33f16f9fffcd3dcf33e971f8ae158}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Research in Computer Science}
+      \field{number}{6}
+      \field{title}{Queuing Management System in Manuel S. Enverga University Foundation Candelaria Inc.}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{44\bibrangedash 53}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.26483/ijarcs.v14i6.7039
+      \endverb
+    \endentry
+    \entry{ref39}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=2b0c35db9565e6648b4bde146a6074c8}{%
+           family={Zaid},
+           familyi={Z\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b1fb05acdea5eb3b9bd211143890a3a8}{%
+           family={Saleh},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f0409982dffc78ba7c501c32ae816b94}{%
+           family={Assaf},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=72453aecdefda1db9342601c29c3a43b}{%
+           family={Tuhul},
+           familyi={T\bibinitperiod},
+           given={N.\bibnamedelimi Al},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f44396f79b8c16d09d29cafdaa4e9b7b}
+      \strng{fullhash}{24b29a93b2d5660ad43f4e93564df8bb}
+      \strng{fullhashraw}{24b29a93b2d5660ad43f4e93564df8bb}
+      \strng{bibnamehash}{f44396f79b8c16d09d29cafdaa4e9b7b}
+      \strng{authorbibnamehash}{f44396f79b8c16d09d29cafdaa4e9b7b}
+      \strng{authornamehash}{f44396f79b8c16d09d29cafdaa4e9b7b}
+      \strng{authorfullhash}{24b29a93b2d5660ad43f4e93564df8bb}
+      \strng{authorfullhashraw}{24b29a93b2d5660ad43f4e93564df8bb}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Quality \& Reliability Management}
+      \field{number}{10}
+      \field{title}{The effect of contract management systems on quality management systems in construction industry: The mediating role of Quality 4.0 technologies}
+      \field{volume}{42}
+      \field{year}{2025}
+      \field{pages}{2629\bibrangedash 2649}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1108/IJQRM-10-2024-0357
+      \endverb
+    \endentry
+    \entry{ref88}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d8ee5537dcc9b4557c34e505487771e5}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Pengfei},
+           giveni={P\bibinitperiod}}}%
+        {{hash=14ca07f317f986069e5e6243cf8f8d7e}{%
+           family={Haviv},
+           familyi={H\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b1754110064e6f6f4cb7b883fdb5d433}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Zhenwei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=6b66ef9126ad7361db5a6e84746a5098}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yulan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8651d57cf0e46620e341047319160bd}
+      \strng{fullhash}{f796ca753f057a76051f6c5b06036df7}
+      \strng{fullhashraw}{f796ca753f057a76051f6c5b06036df7}
+      \strng{bibnamehash}{a8651d57cf0e46620e341047319160bd}
+      \strng{authorbibnamehash}{a8651d57cf0e46620e341047319160bd}
+      \strng{authornamehash}{a8651d57cf0e46620e341047319160bd}
+      \strng{authorfullhash}{f796ca753f057a76051f6c5b06036df7}
+      \strng{authorfullhashraw}{f796ca753f057a76051f6c5b06036df7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Manufacturing \& Service Operations Management}
+      \field{number}{2}
+      \field{title}{Signaling Service Quality Through Queue Disclosure}
+      \field{volume}{25}
+      \field{year}{2022}
+      \field{pages}{543\bibrangedash 562}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1287/msom.2022.1170
+      \endverb
+    \endentry
+    \entry{ref89}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=976ba62ed97d0aa786a751d753330a41}{%
+           family={Beshley},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b26579c567dfcf23e34604a3200d0af4}{%
+           family={Kryvinska},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=49488bd767749e557571e95e8e69b0ba}{%
+           family={Seliuchenko},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0122c05032ce4ddf1d003160a0cc00a3}{%
+           family={Beshley},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ae65d4beade55a65895e562df822a04c}{%
+           family={Shakshuki},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c4cecd378acd501e8e13207b7051b64b}{%
+           family={Yasar},
+           familyi={Y\bibinitperiod},
+           given={A.-U.-H.},
+           giveni={A\bibinithyphendelim U\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d42b971cb7429c3f87de83ed6fd80549}
+      \strng{fullhash}{76e6b717bd96416a7abf44b906e2ee4b}
+      \strng{fullhashraw}{76e6b717bd96416a7abf44b906e2ee4b}
+      \strng{bibnamehash}{d42b971cb7429c3f87de83ed6fd80549}
+      \strng{authorbibnamehash}{d42b971cb7429c3f87de83ed6fd80549}
+      \strng{authornamehash}{d42b971cb7429c3f87de83ed6fd80549}
+      \strng{authorfullhash}{76e6b717bd96416a7abf44b906e2ee4b}
+      \strng{authorfullhashraw}{76e6b717bd96416a7abf44b906e2ee4b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{8}
+      \field{title}{End-to-End QoS “Smart Queue” Management Algorithms and Traffic Prioritization Mechanisms for Narrow-Band Internet of Things Services in 4G/5G Networks}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{2324}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s20082324
+      \endverb
+    \endentry
+    \entry{ref8}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=9b6955ba58f3c1d8e3fd2efe5d5942d4}{%
+           family={Cheirkhanova},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=52d55fab2cff8802bd9f3d9b042235a1}{%
+           family={Juman},
+           familyi={J\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=876423a6407dc879456c2b329f6e7488}{%
+           family={Yezhebekov},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=881f626de3a1dccf16c99f02a2cb04dd}{%
+           family={Makulova},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cf9eb345661d04ffdd2316b0998e9052}{%
+           family={Khamzayeva},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2830589972963e7093311e957ebf9170}{%
+           family={Zhuman},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{07055952c3795b073f0af54befa557a1}
+      \strng{fullhash}{dad6dd11e7d9814a5643de3b1e243a96}
+      \strng{fullhashraw}{dad6dd11e7d9814a5643de3b1e243a96}
+      \strng{bibnamehash}{07055952c3795b073f0af54befa557a1}
+      \strng{authorbibnamehash}{07055952c3795b073f0af54befa557a1}
+      \strng{authornamehash}{07055952c3795b073f0af54befa557a1}
+      \strng{authorfullhash}{dad6dd11e7d9814a5643de3b1e243a96}
+      \strng{authorfullhashraw}{dad6dd11e7d9814a5643de3b1e243a96}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{9}
+      \field{title}{The impact of customer-centered quality management systems on profit and satisfaction in construction companies}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{pages}{4190}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su17094190
+      \endverb
+    \endentry
+    \entry{ref13}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=1e117a0d99901b50eee9225458b9e803}{%
+           family={Gea},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=766055c00aeba0b9156075f24ff0df99}{%
+           family={Bu'ulolo},
+           familyi={B\bibinitperiod},
+           given={N.\bibnamedelimi A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e5a4ff916954da7cd3d1f91639de0ff7}{%
+           family={Telaumbanua},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1a26a4293199e51cf897573d5e14b1e9}{%
+           family={Harefa},
+           familyi={H\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{be66a756ef24f3596fd06957b5ffab3d}
+      \strng{fullhash}{e91069e39e26c3c74c2bf96171f2ec45}
+      \strng{fullhashraw}{e91069e39e26c3c74c2bf96171f2ec45}
+      \strng{bibnamehash}{be66a756ef24f3596fd06957b5ffab3d}
+      \strng{authorbibnamehash}{be66a756ef24f3596fd06957b5ffab3d}
+      \strng{authornamehash}{be66a756ef24f3596fd06957b5ffab3d}
+      \strng{authorfullhash}{e91069e39e26c3c74c2bf96171f2ec45}
+      \strng{authorfullhashraw}{e91069e39e26c3c74c2bf96171f2ec45}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Ilmiah METADATA}
+      \field{number}{3}
+      \field{title}{The effect of quality management system implementation on customer satisfaction at UD. Wiramas Karya Gunungsitoli City}
+      \field{volume}{7}
+      \field{year}{2025}
+      \field{pages}{214\bibrangedash 223}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.47652/metadata.v7i3.919
+      \endverb
+    \endentry
+    \entry{ref23}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=88fe376ee07b7eb5737d6def5d19a573}{%
+           family={Merodio},
+           familyi={M\bibinitperiod},
+           given={J.-A.\bibnamedelimi Medina},
+           giveni={J\bibinithyphendelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6239e83c05f25ec063f23c41367d0fa5}{%
+           family={Pablos\bibnamedelima Heredero},
+           familyi={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=99ed4a734e87136d15b619f4643604b8}{%
+           family={Rodríguez},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi L.\bibnamedelimi Jiménez},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c092d2a7644f1004aa68e88c00f953bf}{%
+           family={Sanz},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi Fernández},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=b968f81f519cad981e6ed9ce99069ed6}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi Robina},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d4d2f65b6bce958ad0892eca48972ce8}{%
+           family={Jiménez},
+           familyi={J\bibinitperiod},
+           given={J.\bibnamedelimi Andrés},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c90861f43b33869cbc04a8f26b25b4c5}
+      \strng{fullhash}{c4e4392bed75cb453c4548cdb3f94d17}
+      \strng{fullhashraw}{c4e4392bed75cb453c4548cdb3f94d17}
+      \strng{bibnamehash}{c90861f43b33869cbc04a8f26b25b4c5}
+      \strng{authorbibnamehash}{c90861f43b33869cbc04a8f26b25b4c5}
+      \strng{authornamehash}{c90861f43b33869cbc04a8f26b25b4c5}
+      \strng{authorfullhash}{c4e4392bed75cb453c4548cdb3f94d17}
+      \strng{authorfullhashraw}{c4e4392bed75cb453c4548cdb3f94d17}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A framework to support the process of measurement of customer's satisfaction according to ISO 9001}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{102554\bibrangedash 102569}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2020.2998434
+      \endverb
+    \endentry
+    \entry{ref19}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=ce084360cc68e7db4fe6cae1287b3adf}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0f60fb19d048e40c3e2510ca11e6fed2}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{898bbbe72da6e7191243c4e9fa1c70b4}
+      \strng{fullhash}{898bbbe72da6e7191243c4e9fa1c70b4}
+      \strng{fullhashraw}{898bbbe72da6e7191243c4e9fa1c70b4}
+      \strng{bibnamehash}{898bbbe72da6e7191243c4e9fa1c70b4}
+      \strng{authorbibnamehash}{898bbbe72da6e7191243c4e9fa1c70b4}
+      \strng{authornamehash}{898bbbe72da6e7191243c4e9fa1c70b4}
+      \strng{authorfullhash}{898bbbe72da6e7191243c4e9fa1c70b4}
+      \strng{authorfullhashraw}{898bbbe72da6e7191243c4e9fa1c70b4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{9}
+      \field{title}{The impact of supply chain quality management on firm performance in manufacturing business: The moderating role of digital intelligence}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{pages}{4165}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su17094165
+      \endverb
+    \endentry
+    \entry{ref14}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=a5f8ea84c6cedafca4c24764d305f852}{%
+           family={Golestanizadeh},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=55c7659758d42f998bc37ee74b186b01}{%
+           family={Sarvari},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=602dfc97a7f70fe7d1d86ad5b9b3e888}{%
+           family={Parishani},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8fc3d09a59beddfc68aa99999d85af29}{%
+           family={Akindele},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c056f7bfdf40a1b410daa51ee7505006}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f563cbe0eee4c1902d93df9756c7acc5}
+      \strng{fullhash}{8bcb28b33753716cdad8db311df33ad8}
+      \strng{fullhashraw}{8bcb28b33753716cdad8db311df33ad8}
+      \strng{bibnamehash}{f563cbe0eee4c1902d93df9756c7acc5}
+      \strng{authorbibnamehash}{f563cbe0eee4c1902d93df9756c7acc5}
+      \strng{authornamehash}{f563cbe0eee4c1902d93df9756c7acc5}
+      \strng{authorfullhash}{8bcb28b33753716cdad8db311df33ad8}
+      \strng{authorfullhashraw}{8bcb28b33753716cdad8db311df33ad8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Buildings}
+      \field{number}{4}
+      \field{title}{Probing the effect of business intelligence on the performance of construction projects through the mediating variable of project quality management}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{621}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/buildings15040621
+      \endverb
+    \endentry
+    \entry{ref25}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=46d403f61db34d66bbef4fc856dd4a96}{%
+           family={Basari},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi M.\bibnamedelimi Mohammad\bibnamedelima Don},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b4ff744eb422c693774b4d89e1a74c7d}{%
+           family={Shamsudin},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi Farid},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{91b3711b831e2eb2ce794362832176c7}
+      \strng{fullhash}{91b3711b831e2eb2ce794362832176c7}
+      \strng{fullhashraw}{91b3711b831e2eb2ce794362832176c7}
+      \strng{bibnamehash}{91b3711b831e2eb2ce794362832176c7}
+      \strng{authorbibnamehash}{91b3711b831e2eb2ce794362832176c7}
+      \strng{authornamehash}{91b3711b831e2eb2ce794362832176c7}
+      \strng{authorfullhash}{91b3711b831e2eb2ce794362832176c7}
+      \strng{authorfullhashraw}{91b3711b831e2eb2ce794362832176c7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Undergraduate Social Science and Technology}
+      \field{number}{1}
+      \field{title}{Does Customer Satisfaction Matters?}
+      \field{volume}{2}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://abrn.asia/ojs/index.php/JUSST/article/view/59
+      \endverb
+      \verb{url}
+      \verb https://abrn.asia/ojs/index.php/JUSST/article/view/59
+      \endverb
+    \endentry
+    \entry{ref7}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=107d78a747d4c1e031e0191dcac12c98}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5602ea71f9076cd4295fd279a72c76ea}{%
+           family={Alyousuf},
+           familyi={A\bibinitperiod},
+           given={F.\bibnamedelimi Q.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim Q\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{32c152976989a533a0e4f723e5ff5992}
+      \strng{fullhash}{32c152976989a533a0e4f723e5ff5992}
+      \strng{fullhashraw}{32c152976989a533a0e4f723e5ff5992}
+      \strng{bibnamehash}{32c152976989a533a0e4f723e5ff5992}
+      \strng{authorbibnamehash}{32c152976989a533a0e4f723e5ff5992}
+      \strng{authornamehash}{32c152976989a533a0e4f723e5ff5992}
+      \strng{authorfullhash}{32c152976989a533a0e4f723e5ff5992}
+      \strng{authorfullhashraw}{32c152976989a533a0e4f723e5ff5992}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Big Data}
+      \field{title}{A new framework to assess the impact of new IT-based technologies on the success of quality management system}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s40537-025-01061-5
+      \endverb
+    \endentry
+    \entry{ref34}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=58ac44b7f507b33216ec0132de0cef88}{%
+           family={Sariyer},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b358b9a38cf8b932e09d0b9437a8c843}{%
+           family={Mangla},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0f4ba4d38e49330c810102209f37a7e0}{%
+           family={Kazancoglu},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b15ff12eb8ff3d2b33832a2fb2e3e106}{%
+           family={Ocal},
+           familyi={O\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f7c459a9767bac79a1e5c59531f4c133}{%
+           family={Luthra},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6c8509de118f154dab3a5d0b27880be}
+      \strng{fullhash}{51d1d2fae76135bea4111c9fc88a5fb8}
+      \strng{fullhashraw}{51d1d2fae76135bea4111c9fc88a5fb8}
+      \strng{bibnamehash}{a6c8509de118f154dab3a5d0b27880be}
+      \strng{authorbibnamehash}{a6c8509de118f154dab3a5d0b27880be}
+      \strng{authornamehash}{a6c8509de118f154dab3a5d0b27880be}
+      \strng{authorfullhash}{51d1d2fae76135bea4111c9fc88a5fb8}
+      \strng{authorfullhashraw}{51d1d2fae76135bea4111c9fc88a5fb8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{title}{Data analytics for quality management in Industry 4.0 from a MSME perspective}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1007/s10479-021-04215-9
+      \endverb
+    \endentry
+    \entry{ref31}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=e65818891d08f7010fc1a0eb1c031ab3}{%
+           family={Salimbeni},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a75b21e38d3aa6f0a6691956490e159e}{%
+           family={Redchuk},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{b08a42dccf0de63b743e47e2779f1050}
+      \strng{fullhash}{b08a42dccf0de63b743e47e2779f1050}
+      \strng{fullhashraw}{b08a42dccf0de63b743e47e2779f1050}
+      \strng{bibnamehash}{b08a42dccf0de63b743e47e2779f1050}
+      \strng{authorbibnamehash}{b08a42dccf0de63b743e47e2779f1050}
+      \strng{authornamehash}{b08a42dccf0de63b743e47e2779f1050}
+      \strng{authorfullhash}{b08a42dccf0de63b743e47e2779f1050}
+      \strng{authorfullhashraw}{b08a42dccf0de63b743e47e2779f1050}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in System-Integrated Intelligence. SYSINT 2022, Lecture Notes in Networks and Systems, Vol. 546}
+      \field{title}{The Impact of Intelligent Objects on Quality 4.0}
+      \field{year}{2023}
+      \field{pages}{287\bibrangedash 298}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/978-3-031-16281-7_28
+      \endverb
+    \endentry
+    \entry{ref17}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7ff8b416b874379eaf4cd133a9c52076}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={G.-S.},
+           giveni={G\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ff8b416b874379eaf4cd133a9c52076}
+      \strng{fullhash}{7ff8b416b874379eaf4cd133a9c52076}
+      \strng{fullhashraw}{7ff8b416b874379eaf4cd133a9c52076}
+      \strng{bibnamehash}{7ff8b416b874379eaf4cd133a9c52076}
+      \strng{authorbibnamehash}{7ff8b416b874379eaf4cd133a9c52076}
+      \strng{authornamehash}{7ff8b416b874379eaf4cd133a9c52076}
+      \strng{authorfullhash}{7ff8b416b874379eaf4cd133a9c52076}
+      \strng{authorfullhashraw}{7ff8b416b874379eaf4cd133a9c52076}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{13}
+      \field{title}{The effect of quality management and big data management on customer satisfaction in Korea's public sector}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{5474}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su12135474
+      \endverb
+    \endentry
+    \entry{ref37}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=ffd85c4f61a0763885ae4c8f3cdce4d8}{%
+           family={Wolniak},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ebb5c771a7a3d9dec6f65414452dac91}{%
+           family={Grebski},
+           familyi={G\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc65feea8c579c74ed89e9bcb1b08f6a}
+      \strng{fullhash}{dc65feea8c579c74ed89e9bcb1b08f6a}
+      \strng{fullhashraw}{dc65feea8c579c74ed89e9bcb1b08f6a}
+      \strng{bibnamehash}{dc65feea8c579c74ed89e9bcb1b08f6a}
+      \strng{authorbibnamehash}{dc65feea8c579c74ed89e9bcb1b08f6a}
+      \strng{authornamehash}{dc65feea8c579c74ed89e9bcb1b08f6a}
+      \strng{authorfullhash}{dc65feea8c579c74ed89e9bcb1b08f6a}
+      \strng{authorfullhashraw}{dc65feea8c579c74ed89e9bcb1b08f6a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Papers of Silesian University of Technology (Organization and Management Series)}
+      \field{title}{The methods of quality management in Quality 4.0}
+      \field{volume}{182}
+      \field{year}{2023}
+      \field{pages}{613\bibrangedash 629}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.29119/1641-3466.2023.182.37
+      \endverb
+    \endentry
+    \entry{ref29}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=2a8efc3e06bcf28232af4c043ffca245}{%
+           family={Yurin},
+           familyi={Y\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=855ba31bffa2c8e30a37b0ddb7ad5f60}{%
+           family={Deniskina},
+           familyi={D\bibinitperiod},
+           given={Antonina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0fb048e3d01e25bfd25ffc4b3a408feb}{%
+           family={Boytsov},
+           familyi={B\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b18922c82701baf8e288f5bbc675c2aa}{%
+           family={Karpovich},
+           familyi={K\bibinitperiod},
+           given={Miron},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d332c917ee5db3d25385058976f5a64}
+      \strng{fullhash}{c2b796f26eef00ce6f2defe77350acae}
+      \strng{fullhashraw}{c2b796f26eef00ce6f2defe77350acae}
+      \strng{bibnamehash}{4d332c917ee5db3d25385058976f5a64}
+      \strng{authorbibnamehash}{4d332c917ee5db3d25385058976f5a64}
+      \strng{authornamehash}{4d332c917ee5db3d25385058976f5a64}
+      \strng{authorfullhash}{c2b796f26eef00ce6f2defe77350acae}
+      \strng{authorfullhashraw}{c2b796f26eef00ce6f2defe77350acae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{E3S Web of Conferences}
+      \field{title}{Quality 4.0. Time of revolutionary changes in the QMS}
+      \field{volume}{244}
+      \field{year}{2021}
+      \field{pages}{11010}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1051/e3sconf/202124411010
+      \endverb
+    \endentry
+    \entry{ref85}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fa4fa8a6635f727854a285731ace4a56}{%
+           family={Bihi},
+           familyi={B\bibinitperiod},
+           given={T.\bibnamedelimi G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Central University of Technology --- CUTScholar}%
+      }
+      \strng{namehash}{fa4fa8a6635f727854a285731ace4a56}
+      \strng{fullhash}{fa4fa8a6635f727854a285731ace4a56}
+      \strng{fullhashraw}{fa4fa8a6635f727854a285731ace4a56}
+      \strng{bibnamehash}{fa4fa8a6635f727854a285731ace4a56}
+      \strng{authorbibnamehash}{fa4fa8a6635f727854a285731ace4a56}
+      \strng{authornamehash}{fa4fa8a6635f727854a285731ace4a56}
+      \strng{authorfullhash}{fa4fa8a6635f727854a285731ace4a56}
+      \strng{authorfullhashraw}{fa4fa8a6635f727854a285731ace4a56}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Intelligent quality management system for flexible manufacturing systems (Doctoral thesis)}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://cutscholar.cut.ac.za/items/139423d5-e509-4d94-be98-424e7173c1fa
+      \endverb
+      \verb{url}
+      \verb https://cutscholar.cut.ac.za/items/139423d5-e509-4d94-be98-424e7173c1fa
+      \endverb
+    \endentry
+    \entry{ref10}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=826b29c11023d92280ed74bae5e53533}{%
+           family={Jesus},
+           familyi={J\bibinitperiod},
+           given={L.\bibnamedelimi Dos\bibnamedelima Santos},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=64a70015f4a8a27dc3409e5397f1ca5f}{%
+           family={Galdamez},
+           familyi={G\bibinitperiod},
+           given={E.\bibnamedelimi V.},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6a9893a9fca9ad9db0983c9c407c1f9}
+      \strng{fullhash}{e6a9893a9fca9ad9db0983c9c407c1f9}
+      \strng{fullhashraw}{e6a9893a9fca9ad9db0983c9c407c1f9}
+      \strng{bibnamehash}{e6a9893a9fca9ad9db0983c9c407c1f9}
+      \strng{authorbibnamehash}{e6a9893a9fca9ad9db0983c9c407c1f9}
+      \strng{authornamehash}{e6a9893a9fca9ad9db0983c9c407c1f9}
+      \strng{authorfullhash}{e6a9893a9fca9ad9db0983c9c407c1f9}
+      \strng{authorfullhashraw}{e6a9893a9fca9ad9db0983c9c407c1f9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Business \& Information Journal}
+      \field{title}{The impact of artificial intelligence and Industry 4.0 on process quality: A systematic review}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1108/BIJ-01-2023-0048
+      \endverb
+    \endentry
+    \entry{ref11}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=6f7523abd71699303c7fdd505ebf0e2b}{%
+           family={Emmanuel},
+           familyi={E\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{891878924091ab030846a9106d45db46}
+      \strng{fullhash}{891878924091ab030846a9106d45db46}
+      \strng{fullhashraw}{891878924091ab030846a9106d45db46}
+      \strng{bibnamehash}{891878924091ab030846a9106d45db46}
+      \strng{authorbibnamehash}{891878924091ab030846a9106d45db46}
+      \strng{authornamehash}{891878924091ab030846a9106d45db46}
+      \strng{authorfullhash}{891878924091ab030846a9106d45db46}
+      \strng{authorfullhashraw}{891878924091ab030846a9106d45db46}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quality and Reliability Engineering International}
+      \field{title}{Quality Management Systems (QMSs): Exploring the effect of risk factors and developing the risk management framework for QMS effectiveness in service institutions}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1002/qre.70018
+      \endverb
+    \endentry
+    \entry{ref18}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=c34b13b0775ae74df7983eca7e5ce8fb}{%
+           family={Khoshsepehr},
+           familyi={K\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=83240e3ef2e62f24900f6a6638bde6c7}{%
+           family={Alinejad},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8da584c79ee6346a69d0451fb56946e0}{%
+           family={Salari},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{682c7b02e0be303beea708a7d1035338}
+      \strng{fullhash}{682c7b02e0be303beea708a7d1035338}
+      \strng{fullhashraw}{682c7b02e0be303beea708a7d1035338}
+      \strng{bibnamehash}{682c7b02e0be303beea708a7d1035338}
+      \strng{authorbibnamehash}{682c7b02e0be303beea708a7d1035338}
+      \strng{authornamehash}{682c7b02e0be303beea708a7d1035338}
+      \strng{authorfullhash}{682c7b02e0be303beea708a7d1035338}
+      \strng{authorfullhashraw}{682c7b02e0be303beea708a7d1035338}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Quality \& Reliability Management}
+      \field{number}{10}
+      \field{title}{Enhancing organizational quality management in Industry 5.0 through smart technologies and decomposed fuzzy methods}
+      \field{volume}{42}
+      \field{year}{2025}
+      \field{pages}{2815\bibrangedash 2835}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1108/IJQRM-10-2024-0365
+      \endverb
+    \endentry
+    \entry{ref6}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=8e463b8571445dcfe7f6db1a6c4f09ac}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=148e92e6e807710bd41892e7f3684268}{%
+           family={Lima},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{347ad628aaca3d9e67a5b2e4b912368a}
+      \strng{fullhash}{347ad628aaca3d9e67a5b2e4b912368a}
+      \strng{fullhashraw}{347ad628aaca3d9e67a5b2e4b912368a}
+      \strng{bibnamehash}{347ad628aaca3d9e67a5b2e4b912368a}
+      \strng{authorbibnamehash}{347ad628aaca3d9e67a5b2e4b912368a}
+      \strng{authornamehash}{347ad628aaca3d9e67a5b2e4b912368a}
+      \strng{authorfullhash}{347ad628aaca3d9e67a5b2e4b912368a}
+      \strng{authorfullhashraw}{347ad628aaca3d9e67a5b2e4b912368a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied System Innovation}
+      \field{number}{6}
+      \field{title}{Quality 4.0 and Cognitive Engineering Applied to Quality Management Systems: A Framework}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{pages}{115}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/asi5060115
+      \endverb
+    \endentry
+    \entry{ref33}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=6643cea9bb13d0d50693580223e7c68b}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c0d3fffd0614b59cbcc8f322cb2a4dae}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3cec0f5b4f98c013123343f9b73c4808}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{817e415d70b3c92c5c60d436077f7576}
+      \strng{fullhash}{817e415d70b3c92c5c60d436077f7576}
+      \strng{fullhashraw}{817e415d70b3c92c5c60d436077f7576}
+      \strng{bibnamehash}{817e415d70b3c92c5c60d436077f7576}
+      \strng{authorbibnamehash}{817e415d70b3c92c5c60d436077f7576}
+      \strng{authornamehash}{817e415d70b3c92c5c60d436077f7576}
+      \strng{authorfullhash}{817e415d70b3c92c5c60d436077f7576}
+      \strng{authorfullhashraw}{817e415d70b3c92c5c60d436077f7576}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Systems}
+      \field{number}{6}
+      \field{title}{A construction and empirical study of quality management evaluation index system in the Internet of Things industry}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{231}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/systems10060231
+      \endverb
+    \endentry
+    \entry{ref35}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=c720218a63b90f7eabc442ee1756872a}{%
+           family={Saka},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f15169f07befc80189380b3c605d2461}{%
+           family={Gök},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5caef292818524506640109b44fc213}
+      \strng{fullhash}{c5caef292818524506640109b44fc213}
+      \strng{fullhashraw}{c5caef292818524506640109b44fc213}
+      \strng{bibnamehash}{c5caef292818524506640109b44fc213}
+      \strng{authorbibnamehash}{c5caef292818524506640109b44fc213}
+      \strng{authornamehash}{c5caef292818524506640109b44fc213}
+      \strng{authorfullhash}{c5caef292818524506640109b44fc213}
+      \strng{authorfullhashraw}{c5caef292818524506640109b44fc213}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Raft -- Review of Administrative and Financial Theory}
+      \field{title}{Improving customer satisfaction in the immersive experiences era}
+      \field{volume}{21}
+      \field{year}{2024}
+      \field{pages}{563\bibrangedash 572}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2478/raft-2024-0058
+      \endverb
+    \endentry
+    \entry{ref22}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=75162f39de12f08579163b884d340d9e}{%
+           family={Magno},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5442ea83ffa0c1884742cf8cd48b67b6}{%
+           family={Dossena},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9b490e9888566970bbc5bbe4c923a18}
+      \strng{fullhash}{b9b490e9888566970bbc5bbe4c923a18}
+      \strng{fullhashraw}{b9b490e9888566970bbc5bbe4c923a18}
+      \strng{bibnamehash}{b9b490e9888566970bbc5bbe4c923a18}
+      \strng{authorbibnamehash}{b9b490e9888566970bbc5bbe4c923a18}
+      \strng{authornamehash}{b9b490e9888566970bbc5bbe4c923a18}
+      \strng{authorfullhash}{b9b490e9888566970bbc5bbe4c923a18}
+      \strng{authorfullhashraw}{b9b490e9888566970bbc5bbe4c923a18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The TQM Journal}
+      \field{number}{5}
+      \field{title}{The effects of chatbots' attributes on customer relationships with brands: PLS SEM and importance--performance map analysis}
+      \field{volume}{35}
+      \field{year}{2023}
+      \field{pages}{1156\bibrangedash 1169}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1108/TQM-02-2022-0080
+      \endverb
+    \endentry
+    \entry{ref38}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=35086c074c7a7f381773ee1a15a02ad3}{%
+           family={Zwain},
+           familyi={Z\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b2736ea2d91900cf78bc64ac9c90664c}{%
+           family={Abdulkarim},
+           familyi={A\bibinitperiod},
+           given={K.\bibnamedelimi Z.},
+           giveni={K\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{9699c34d3f4a757baeafe65b8e885e4c}
+      \strng{fullhash}{9699c34d3f4a757baeafe65b8e885e4c}
+      \strng{fullhashraw}{9699c34d3f4a757baeafe65b8e885e4c}
+      \strng{bibnamehash}{9699c34d3f4a757baeafe65b8e885e4c}
+      \strng{authorbibnamehash}{9699c34d3f4a757baeafe65b8e885e4c}
+      \strng{authornamehash}{9699c34d3f4a757baeafe65b8e885e4c}
+      \strng{authorfullhash}{9699c34d3f4a757baeafe65b8e885e4c}
+      \strng{authorfullhashraw}{9699c34d3f4a757baeafe65b8e885e4c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of International Geographical Education Online (RIGEO)}
+      \field{number}{12}
+      \field{title}{The impact of intelligent quality management system on sustainable manufacturing}
+      \field{volume}{11}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://rigeo.org/menu-script/index.php/rigeo/article/view/2051
+      \endverb
+      \verb{url}
+      \verb https://rigeo.org/menu-script/index.php/rigeo/article/view/2051
+      \endverb
+    \endentry
+    \entry{ref15}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=5a73f9d56f72a98bc416e2b24444db8c}{%
+           family={Hafiza},
+           familyi={H\bibinitperiod}}}%
+        {{hash=eb4c0f94a1527261d8878dd87f059b63}{%
+           family={Sa'ajiz},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d44b5e7cf9cc5dbe5244c05291dfe5b3}
+      \strng{fullhash}{d44b5e7cf9cc5dbe5244c05291dfe5b3}
+      \strng{fullhashraw}{d44b5e7cf9cc5dbe5244c05291dfe5b3}
+      \strng{bibnamehash}{d44b5e7cf9cc5dbe5244c05291dfe5b3}
+      \strng{authorbibnamehash}{d44b5e7cf9cc5dbe5244c05291dfe5b3}
+      \strng{authornamehash}{d44b5e7cf9cc5dbe5244c05291dfe5b3}
+      \strng{authorfullhash}{d44b5e7cf9cc5dbe5244c05291dfe5b3}
+      \strng{authorfullhashraw}{d44b5e7cf9cc5dbe5244c05291dfe5b3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Social and Management Studies}
+      \field{number}{5}
+      \field{title}{Analysis of ISO 9001:2015 quality management system implementation on customer satisfaction with service quality: A short narrative}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{28\bibrangedash 32}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.5555/ijosmas.v4i5.351
+      \endverb
+    \endentry
+    \entry{ref36}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=68ebdb37beaead2dc84fea09b110b7f5}{%
+           family={Sokolov},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=43240beabce4b096e309344d202e1d65}{%
+           family={Picklesimon},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8d0509dba56240985a0fc4cc56246dc2}{%
+           family={Nawafleh},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=44c8617ab45744b3d9e5c0df9dff80bb}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={N.\bibnamedelimi U.\bibnamedelimi Ibne},
+           giveni={N\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEOM Society International}%
+      }
+      \strng{namehash}{803fa2d2d7b7c907e516e4486625738e}
+      \strng{fullhash}{7a874b3dfe8bcf921a69e2000e12600c}
+      \strng{fullhashraw}{7a874b3dfe8bcf921a69e2000e12600c}
+      \strng{bibnamehash}{803fa2d2d7b7c907e516e4486625738e}
+      \strng{authorbibnamehash}{803fa2d2d7b7c907e516e4486625738e}
+      \strng{authornamehash}{803fa2d2d7b7c907e516e4486625738e}
+      \strng{authorfullhash}{7a874b3dfe8bcf921a69e2000e12600c}
+      \strng{authorfullhashraw}{7a874b3dfe8bcf921a69e2000e12600c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the International Conference on Industrial Engineering and Operations Management}
+      \field{title}{The effects of poor internal quality on customer satisfaction}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/355856141
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/355856141
+      \endverb
+    \endentry
+    \entry{ref26}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f5deb7c2a451549dd8ef080f240da64}{%
+           family={Moskvichenko},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f5deb7c2a451549dd8ef080f240da64}
+      \strng{fullhash}{6f5deb7c2a451549dd8ef080f240da64}
+      \strng{fullhashraw}{6f5deb7c2a451549dd8ef080f240da64}
+      \strng{bibnamehash}{6f5deb7c2a451549dd8ef080f240da64}
+      \strng{authorbibnamehash}{6f5deb7c2a451549dd8ef080f240da64}
+      \strng{authornamehash}{6f5deb7c2a451549dd8ef080f240da64}
+      \strng{authorfullhash}{6f5deb7c2a451549dd8ef080f240da64}
+      \strng{authorfullhashraw}{6f5deb7c2a451549dd8ef080f240da64}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Baltic Journal of Economic Studies}
+      \field{title}{Improvement of the quality management system in the transport and logistics sector}
+      \field{year}{2024}
+      \field{pages}{Article 2601}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://www.baltijapublishing.lv/index.php/issue/article/view/2601
+      \endverb
+      \verb{url}
+      \verb https://www.baltijapublishing.lv/index.php/issue/article/view/2601
+      \endverb
+    \endentry
+    \entry{ref42}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=1bb3ceca183bb0d7c9c7ca56be03a619}{%
+           family={Akter},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d2fd7e926cc439cae6dff25204b3bbee}{%
+           family={Kudapa},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ad547b8d0d9ee15be3f39ea716fcc4d}
+      \strng{fullhash}{9ad547b8d0d9ee15be3f39ea716fcc4d}
+      \strng{fullhashraw}{9ad547b8d0d9ee15be3f39ea716fcc4d}
+      \strng{bibnamehash}{9ad547b8d0d9ee15be3f39ea716fcc4d}
+      \strng{authorbibnamehash}{9ad547b8d0d9ee15be3f39ea716fcc4d}
+      \strng{authornamehash}{9ad547b8d0d9ee15be3f39ea716fcc4d}
+      \strng{authorfullhash}{9ad547b8d0d9ee15be3f39ea716fcc4d}
+      \strng{authorfullhashraw}{9ad547b8d0d9ee15be3f39ea716fcc4d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Scientific Interdisciplinary Research}
+      \field{number}{2}
+      \field{title}{A comparative analysis of artificial intelligence integrated BI dashboards for real time decision support in operations}
+      \field{volume}{5}
+      \field{year}{2024}
+      \field{pages}{158\bibrangedash 191}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.63125/47jjv310
+      \endverb
+    \endentry
+    \entry{ref43}{misc}{}{}
+      \name{author}{7}{}{%
+        {{hash=e6f5706a5944551742eaae56c78351be}{%
+           family={Hosen},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=231a39ef09d17933ead8656d00d2a58a}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=64daf7c75b05c665d86a460d5ac24122}{%
+           family={Naeem},
+           familyi={N\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8ff9e53ecfef24a984adddb3959ad8a1}{%
+           family={Folorunso},
+           familyi={F\bibinitperiod},
+           given={E.\bibnamedelimi O.},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=b1d25ae1d522c037a3499b048985019b}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5d1129cd5c8cf02a7255ce8819081c87}{%
+           family={Mamun},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi Al},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6662e5fdc77eb4ea1752329d37231595}{%
+           family={Orunbon},
+           familyi={O\bibinitperiod},
+           given={N.\bibnamedelimi O.},
+           giveni={N\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{008e6ee2661fee85e3829e94b0621a93}
+      \strng{fullhash}{e0d6886059b0aef1d1e76001a6145a97}
+      \strng{fullhashraw}{e0d6886059b0aef1d1e76001a6145a97}
+      \strng{bibnamehash}{008e6ee2661fee85e3829e94b0621a93}
+      \strng{authorbibnamehash}{008e6ee2661fee85e3829e94b0621a93}
+      \strng{authornamehash}{008e6ee2661fee85e3829e94b0621a93}
+      \strng{authorfullhash}{e0d6886059b0aef1d1e76001a6145a97}
+      \strng{authorfullhashraw}{e0d6886059b0aef1d1e76001a6145a97}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nanotechnology Perceptions}
+      \field{number}{Supplement 3}
+      \field{title}{Data Driven Decision Making: Advanced Database Systems for Business Intelligence}
+      \field{volume}{20}
+      \field{year}{2024}
+      \field{pages}{687\bibrangedash 704}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.62441/nano-ntp.v20iS3.51
+      \endverb
+    \endentry
+    \entry{ref44}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=56c36a252196e33eb83881e0ac0eb4d4}{%
+           family={Maaitah},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{56c36a252196e33eb83881e0ac0eb4d4}
+      \strng{fullhash}{56c36a252196e33eb83881e0ac0eb4d4}
+      \strng{fullhashraw}{56c36a252196e33eb83881e0ac0eb4d4}
+      \strng{bibnamehash}{56c36a252196e33eb83881e0ac0eb4d4}
+      \strng{authorbibnamehash}{56c36a252196e33eb83881e0ac0eb4d4}
+      \strng{authornamehash}{56c36a252196e33eb83881e0ac0eb4d4}
+      \strng{authorfullhash}{56c36a252196e33eb83881e0ac0eb4d4}
+      \strng{authorfullhashraw}{56c36a252196e33eb83881e0ac0eb4d4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Intelligence Studies in Business}
+      \field{number}{1}
+      \field{title}{The role of business intelligence tools in the decision making process and performance}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{43\bibrangedash 52}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.37380/jisib.v13i1.990
+      \endverb
+    \endentry
+    \entry{ref45}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=e9f8fc3eef20fd0a4440dde51e4963c6}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelimb M.\bibnamedelimi X.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=e3cc8af6ca4927b13b9a1b4b26494fad}{%
+           family={Mircea},
+           familyi={M\bibinitperiod},
+           given={Marinela},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IntechOpen}%
+      }
+      \strng{namehash}{23240dc3d6bd8ddeaf22cf14757db874}
+      \strng{fullhash}{23240dc3d6bd8ddeaf22cf14757db874}
+      \strng{fullhashraw}{23240dc3d6bd8ddeaf22cf14757db874}
+      \strng{bibnamehash}{23240dc3d6bd8ddeaf22cf14757db874}
+      \strng{authorbibnamehash}{23240dc3d6bd8ddeaf22cf14757db874}
+      \strng{authornamehash}{23240dc3d6bd8ddeaf22cf14757db874}
+      \strng{authorfullhash}{23240dc3d6bd8ddeaf22cf14757db874}
+      \strng{authorfullhashraw}{23240dc3d6bd8ddeaf22cf14757db874}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{E Business: Higher Education and Intelligence Applications}
+      \field{title}{Modern Business Intelligence: Big Data Analytics and Artificial Intelligence for Creating the Data Driven Value}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.5772/intechopen.97374
+      \endverb
+    \endentry
+    \entry{ref46}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=6a76f315febdb7701220608aa5bba160}{%
+           family={Abayomi},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4cc9f8836debfa8d321b93c8fa1ca14b}{%
+           family={Mgbame},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2f3e8ed5ca9d3ea567ae87834c78f60e}{%
+           family={Akpe},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi E.\bibnamedelimi E.},
+           giveni={O\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ead9940b7bdfe6265c8c2e8edb1a3d6b}{%
+           family={Ogbuefi},
+           familyi={O\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e1fbc1da5235aeb27df5079753585936}{%
+           family={Adeyelu},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi O.},
+           giveni={O\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba4ac29e0b70fec9a0f2e08d116c796b}
+      \strng{fullhash}{fc30e0c40ff4b07b70f9f05538925614}
+      \strng{fullhashraw}{fc30e0c40ff4b07b70f9f05538925614}
+      \strng{bibnamehash}{ba4ac29e0b70fec9a0f2e08d116c796b}
+      \strng{authorbibnamehash}{ba4ac29e0b70fec9a0f2e08d116c796b}
+      \strng{authornamehash}{ba4ac29e0b70fec9a0f2e08d116c796b}
+      \strng{authorfullhash}{fc30e0c40ff4b07b70f9f05538925614}
+      \strng{authorfullhashraw}{fc30e0c40ff4b07b70f9f05538925614}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Social Science Exceptional Research}
+      \field{number}{2}
+      \field{title}{Building competitive advantage through customized BI solutions in manufacturing SMEs}
+      \field{volume}{2}
+      \field{year}{2023}
+      \field{pages}{48\bibrangedash 65}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.54660/IJSSER.2023.2.2.48-65
+      \endverb
+    \endentry
+    \entry{ref48}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b68a51cdb0550eeb81c1e6a946fdd3}{%
+           family={Shafa},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b68a51cdb0550eeb81c1e6a946fdd3}
+      \strng{fullhash}{a4b68a51cdb0550eeb81c1e6a946fdd3}
+      \strng{fullhashraw}{a4b68a51cdb0550eeb81c1e6a946fdd3}
+      \strng{bibnamehash}{a4b68a51cdb0550eeb81c1e6a946fdd3}
+      \strng{authorbibnamehash}{a4b68a51cdb0550eeb81c1e6a946fdd3}
+      \strng{authornamehash}{a4b68a51cdb0550eeb81c1e6a946fdd3}
+      \strng{authorfullhash}{a4b68a51cdb0550eeb81c1e6a946fdd3}
+      \strng{authorfullhashraw}{a4b68a51cdb0550eeb81c1e6a946fdd3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ASRC Procedia: Global Perspectives in Science and Scholarship}
+      \field{number}{1}
+      \field{title}{Artificial intelligence driven business intelligence models for enhancing decision making in U.S. enterprises}
+      \field{volume}{1}
+      \field{year}{2025}
+      \field{pages}{771\bibrangedash 800}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.63125/b8gmdc46
+      \endverb
+    \endentry
+    \entry{ref49}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee7f35eb99098bf003c66a39a37521f3}{%
+           family={Olalekan},
+           familyi={O\bibinitperiod},
+           given={O.\bibnamedelimi H.},
+           giveni={O\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee7f35eb99098bf003c66a39a37521f3}
+      \strng{fullhash}{ee7f35eb99098bf003c66a39a37521f3}
+      \strng{fullhashraw}{ee7f35eb99098bf003c66a39a37521f3}
+      \strng{bibnamehash}{ee7f35eb99098bf003c66a39a37521f3}
+      \strng{authorbibnamehash}{ee7f35eb99098bf003c66a39a37521f3}
+      \strng{authornamehash}{ee7f35eb99098bf003c66a39a37521f3}
+      \strng{authorfullhash}{ee7f35eb99098bf003c66a39a37521f3}
+      \strng{authorfullhashraw}{ee7f35eb99098bf003c66a39a37521f3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{World Journal of Advanced Research and Reviews}
+      \field{number}{3}
+      \field{title}{Data driven customer segmentation and personalization strategies in modern business intelligence frameworks}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{711\bibrangedash 726}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.30574/wjarr.2021.12.3.0658
+      \endverb
+    \endentry
+    \entry{ref50}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=ed76dc340acccc85d422d2709f77002a}{%
+           family={Shuvo},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ccf2f6ad9e247949c521b7ec3c2df134}{%
+           family={Tabassum},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1cef2e7192e0aaf13d0946c977f3f405}{%
+           family={Tafannum},
+           familyi={T\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=88301e8f7508ece473b6b188c37f318a}{%
+           family={Chadni},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{317786ef11ad9b341d29f7985e51352a}
+      \strng{fullhash}{6c47b3871c6f185470653782846b5b8f}
+      \strng{fullhashraw}{6c47b3871c6f185470653782846b5b8f}
+      \strng{bibnamehash}{317786ef11ad9b341d29f7985e51352a}
+      \strng{authorbibnamehash}{317786ef11ad9b341d29f7985e51352a}
+      \strng{authornamehash}{317786ef11ad9b341d29f7985e51352a}
+      \strng{authorfullhash}{6c47b3871c6f185470653782846b5b8f}
+      \strng{authorfullhashraw}{6c47b3871c6f185470653782846b5b8f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Applied Science and Technology}
+      \field{number}{2}
+      \field{title}{Machine learning in business intelligence: From data mining to strategic insights in MIS}
+      \field{volume}{4}
+      \field{year}{2025}
+      \field{pages}{339\bibrangedash 369}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.63125/drb8py41
+      \endverb
+    \endentry
+    \entry{ref57}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=4cd307ac7a223205db68255993e1f291}{%
+           family={Jabed},
+           familyi={J\bibinitperiod},
+           given={M.\bibnamedelimi M.\bibnamedelimi I.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=fa5daeb1e0bdb30204807f9f710f8532}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c32c2a3bed5cf11b9e229891ee844c59}{%
+           family={Khawer},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=399738c7ef8e7ceb787dd04dbab92453}{%
+           family={Ferdous},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eb606ced0aeb4f9025eafd13411a858a}{%
+           family={Niton},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=31e5f033f9d84ffa65a18960f89aca62}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4ddcf0d000e770fdd06f07a74f7382d}
+      \strng{fullhash}{5c8afc94127fb526096b1478696f5a6d}
+      \strng{fullhashraw}{5c8afc94127fb526096b1478696f5a6d}
+      \strng{bibnamehash}{d4ddcf0d000e770fdd06f07a74f7382d}
+      \strng{authorbibnamehash}{d4ddcf0d000e770fdd06f07a74f7382d}
+      \strng{authornamehash}{d4ddcf0d000e770fdd06f07a74f7382d}
+      \strng{authorfullhash}{5c8afc94127fb526096b1478696f5a6d}
+      \strng{authorfullhashraw}{5c8afc94127fb526096b1478696f5a6d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Research and Applied Innovations}
+      \field{number}{6}
+      \field{title}{Integrating Business Intelligence with AI Driven Machine Learning for Next Generation Intrusion Detection Systems}
+      \field{volume}{6}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.15662/IJRAI.2023.0606007
+      \endverb
+    \endentry
+    \entry{ref68}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=a545bd13ef1e9c1672bfb284155fc1ad}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a662108e4098710ee8727851db5c5311}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{d01bf4072d08a66a6eea9ae59e6f66dc}
+      \strng{fullhash}{d01bf4072d08a66a6eea9ae59e6f66dc}
+      \strng{fullhashraw}{d01bf4072d08a66a6eea9ae59e6f66dc}
+      \strng{bibnamehash}{d01bf4072d08a66a6eea9ae59e6f66dc}
+      \strng{authorbibnamehash}{d01bf4072d08a66a6eea9ae59e6f66dc}
+      \strng{authornamehash}{d01bf4072d08a66a6eea9ae59e6f66dc}
+      \strng{authorfullhash}{d01bf4072d08a66a6eea9ae59e6f66dc}
+      \strng{authorfullhashraw}{d01bf4072d08a66a6eea9ae59e6f66dc}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Research}
+      \field{title}{Leveraging artificial intelligence for business intelligence and decision-making: Evidence from the financial sector}
+      \field{volume}{163}
+      \field{year}{2023}
+      \field{pages}{113955}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jbusres.2023.113955
+      \endverb
+    \endentry
+    \entry{ref56}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=28f6d8188fc1c016e5ed35582ab18c22}{%
+           family={Ogedengbe},
+           familyi={O\bibinitperiod},
+           given={A.\bibnamedelimi O.},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=78c17e3c5caaf017110996d8a4e7ba77}{%
+           family={Friday},
+           familyi={F\bibinitperiod},
+           given={S.\bibnamedelimi C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=051bb28c3059284077879985d9ffdb4b}{%
+           family={Jejeniwa},
+           familyi={J\bibinitperiod},
+           given={T.\bibnamedelimi O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=eeb0b274e56e281853be59058fa71efb}{%
+           family={Ameyaw},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi N.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=69ae4697e962707af5102914e596a5f7}{%
+           family={Olawale},
+           familyi={O\bibinitperiod},
+           given={H.\bibnamedelimi O.},
+           giveni={H\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=9f491246312a47dbd5de57fdeda0ee91}{%
+           family={Oluoha},
+           familyi={O\bibinitperiod},
+           given={O.\bibnamedelimi M.},
+           giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{610ff6e328cc5158bb480697de6f5d2d}
+      \strng{fullhash}{91ba02776748c5d5eb57bbb42d78603e}
+      \strng{fullhashraw}{91ba02776748c5d5eb57bbb42d78603e}
+      \strng{bibnamehash}{610ff6e328cc5158bb480697de6f5d2d}
+      \strng{authorbibnamehash}{610ff6e328cc5158bb480697de6f5d2d}
+      \strng{authornamehash}{610ff6e328cc5158bb480697de6f5d2d}
+      \strng{authorfullhash}{91ba02776748c5d5eb57bbb42d78603e}
+      \strng{authorfullhashraw}{91ba02776748c5d5eb57bbb42d78603e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Shodhshauryam International Scientific Refereed Research Journal}
+      \field{number}{4}
+      \field{title}{A predictive compliance analytics framework using AI and business intelligence for early risk detection}
+      \field{volume}{6}
+      \field{year}{2023}
+      \field{pages}{171\bibrangedash 195}
+      \range{pages}{25}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/395415155
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/395415155
+      \endverb
+    \endentry
+    \entry{ref41}{misc}{}{}
+      \name{author}{12}{}{%
+        {{hash=9a9803356007201f7652dceaf0acf267}{%
+           family={Timon},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5fb0bf938e7a3afc1c1b52d616c1345a}{%
+           family={Heffernan},
+           familyi={H\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9aa36f56418f4f4546e78fa855f05b80}{%
+           family={Kilcullen},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5b7ae85b03c5b187088b01846c0a6d48}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d342e05eab83244cd68bcdef445a4033}{%
+           family={Hopper},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e11315b6c464c8c46e77135e5db82f70}{%
+           family={Quinn},
+           familyi={Q\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=85b6f55f3e88bfdfa98d4708770768c9}{%
+           family={McDonald},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4680b6074f73f571dce368163bcf9ea4}{%
+           family={Gallagher},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=31e70d44fdef4ab6fa693d3cf859f4e9}{%
+           family={Smeaton},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=52f1b6933e27fdda202808765f0b2892}{%
+           family={Moran},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=553056496daad08462a996bf3c199412}{%
+           family={Hussey},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=35aae93f2641cf60bbd0f8b4ae6db5d3}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{69101e54a7a96cab027555418770378c}
+      \strng{fullhash}{294160d2435908fc47a585c867896be3}
+      \strng{fullhashraw}{294160d2435908fc47a585c867896be3}
+      \strng{bibnamehash}{69101e54a7a96cab027555418770378c}
+      \strng{authorbibnamehash}{69101e54a7a96cab027555418770378c}
+      \strng{authornamehash}{69101e54a7a96cab027555418770378c}
+      \strng{authorfullhash}{294160d2435908fc47a585c867896be3}
+      \strng{authorfullhashraw}{294160d2435908fc47a585c867896be3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JMIR Research Protocols}
+      \field{number}{5}
+      \field{title}{Development of an Internet of Things Technology Platform (the NEX System) to Support Older Adults to Live Independently: Protocol for a Development and Usability Study}
+      \field{volume}{11}
+      \field{year}{2022}
+      \field{pages}{e35277}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/35277
+      \endverb
+    \endentry
+    \entry{ref69}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=674f5f4e25e025f4c06bdd481655c97b}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi Colmenares},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=431083d223532ef6e2236350b342a9db}{%
+           family={Parra},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi J.\bibnamedelimi Quiroga},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=2a88a7083fcaf4cbdcb8500e4b018742}{%
+           family={Rojas},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=78a777a0aeb1c33f10be4a4bc87a184b}{%
+           family={Stansfield},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=b43505bf96b733dc90fa1963c4281dff}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={J.\bibnamedelimi C.\bibnamedelimi Colmenares},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbbb4e0518006ab4ee4f49138515af30}
+      \strng{fullhash}{806be11f5bde71636166c908e398e8ad}
+      \strng{fullhashraw}{806be11f5bde71636166c908e398e8ad}
+      \strng{bibnamehash}{cbbb4e0518006ab4ee4f49138515af30}
+      \strng{authorbibnamehash}{cbbb4e0518006ab4ee4f49138515af30}
+      \strng{authornamehash}{cbbb4e0518006ab4ee4f49138515af30}
+      \strng{authorfullhash}{806be11f5bde71636166c908e398e8ad}
+      \strng{authorfullhashraw}{806be11f5bde71636166c908e398e8ad}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cogent Engineering}
+      \field{title}{Big Data analytics in Smart Grids for renewable energy networks: Systematic review of information and communication technology tools}
+      \field{volume}{8}
+      \field{year}{2021}
+      \field{pages}{Article 1935410}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1080/23311916.2021.1935410
+      \endverb
+    \endentry
+    \entry{ref62}{misc}{}{}
+      \name{author}{8}{}{%
+        {{hash=c6809e1f7db61b19f3d3e76ebf4e7887}{%
+           family={Rahul},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi Das},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2f5eaef19645abf9a1fd9e9f7004309b}{%
+           family={Mahmud},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b9d7dddfa56c0854dd77984131c0498c}{%
+           family={Aqif},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e41096456eee87ce75fbaf18b8474c70}{%
+           family={Tariquzzaman},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eb5363c98072d01b6831eb5136203d0c}{%
+           family={Akter},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0616dd5a147136dd600447d025f4c5be}{%
+           family={Osman},
+           familyi={O\bibinitperiod},
+           given={F.\bibnamedelimi Y.},
+           giveni={F\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=3ad8e8cd0e9aaa1cfbd39699cf6e2f66}{%
+           family={Shafi},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi Bin},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=0a6fe50d2905c404e0ff77ae1953a502}{%
+           family={Sozib},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi Mahmud},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87d34c354a4af16864de0ab45e294aab}
+      \strng{fullhash}{b15574a3de34f1e2b5b3ae597e987f1f}
+      \strng{fullhashraw}{b15574a3de34f1e2b5b3ae597e987f1f}
+      \strng{bibnamehash}{87d34c354a4af16864de0ab45e294aab}
+      \strng{authorbibnamehash}{87d34c354a4af16864de0ab45e294aab}
+      \strng{authornamehash}{87d34c354a4af16864de0ab45e294aab}
+      \strng{authorfullhash}{b15574a3de34f1e2b5b3ae597e987f1f}
+      \strng{authorfullhashraw}{b15574a3de34f1e2b5b3ae597e987f1f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cuestiones de Fisioterapia}
+      \field{number}{3}
+      \field{title}{The role of data visualization in business intelligence: Analyzing tool adoption and decision making outcomes in US companies}
+      \field{volume}{51}
+      \field{year}{2022}
+      \field{pages}{310\bibrangedash 329}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.48047/j89x8v45
+      \endverb
+    \endentry
+    \entry{ref59}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=52d57094fd643b6ee79e7e1de82d8829}{%
+           family={Hamidinava},
+           familyi={H\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=61b71b0feb4b67efc7aa5d8b81eaf18b}{%
+           family={Ebrahimy},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{06de4b8a38b81c982c4ea448817bf5c9}
+      \strng{fullhash}{06de4b8a38b81c982c4ea448817bf5c9}
+      \strng{fullhashraw}{06de4b8a38b81c982c4ea448817bf5c9}
+      \strng{bibnamehash}{06de4b8a38b81c982c4ea448817bf5c9}
+      \strng{authorbibnamehash}{06de4b8a38b81c982c4ea448817bf5c9}
+      \strng{authornamehash}{06de4b8a38b81c982c4ea448817bf5c9}
+      \strng{authorfullhash}{06de4b8a38b81c982c4ea448817bf5c9}
+      \strng{authorfullhashraw}{06de4b8a38b81c982c4ea448817bf5c9}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kybernetes}
+      \field{number}{1}
+      \field{title}{A model of business intelligence on cloud for managing SMEs in COVID 19 pandemic (Case: Iranian SMEs)}
+      \field{volume}{52}
+      \field{year}{2023}
+      \field{pages}{207\bibrangedash 224}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1108/K0920220919
+      \endverb
+    \endentry
+    \entry{ref52}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0d28da7529263975f8964556db157ab5}{%
+           family={{Balancing Data Accessibility and Security in Cloud Based Business Intelligence Systems}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d28da7529263975f8964556db157ab5}
+      \strng{fullhash}{0d28da7529263975f8964556db157ab5}
+      \strng{fullhashraw}{0d28da7529263975f8964556db157ab5}
+      \strng{bibnamehash}{0d28da7529263975f8964556db157ab5}
+      \strng{authorbibnamehash}{0d28da7529263975f8964556db157ab5}
+      \strng{authornamehash}{0d28da7529263975f8964556db157ab5}
+      \strng{authorfullhash}{0d28da7529263975f8964556db157ab5}
+      \strng{authorfullhashraw}{0d28da7529263975f8964556db157ab5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{American Journal of Technology Advancement}
+      \field{number}{6}
+      \field{volume}{1}
+      \field{year}{2024}
+      \field{pages}{60\bibrangedash 88}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.31149/ajta.v1i6.281
+      \endverb
+    \endentry
+    \entry{ref60}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=35bc858eca791b64c5528c92ab6d90ed}{%
+           family={Elbashir},
+           familyi={E\bibinitperiod},
+           given={M.\bibnamedelimi Z.},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=ed406187aa502b9c33849790106a0e4e}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=aba000d72eefdc475bcc999e04e33e83}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=dee4cd102059c454e8b364d2dc8220ff}{%
+           family={Collier},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d640f1f037cb61c7dee7f78a69a150f2}
+      \strng{fullhash}{8bc9e71896b3e2d5d2adfae566773575}
+      \strng{fullhashraw}{8bc9e71896b3e2d5d2adfae566773575}
+      \strng{bibnamehash}{d640f1f037cb61c7dee7f78a69a150f2}
+      \strng{authorbibnamehash}{d640f1f037cb61c7dee7f78a69a150f2}
+      \strng{authornamehash}{d640f1f037cb61c7dee7f78a69a150f2}
+      \strng{authorfullhash}{8bc9e71896b3e2d5d2adfae566773575}
+      \strng{authorfullhashraw}{8bc9e71896b3e2d5d2adfae566773575}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Meditari Accountancy Research}
+      \field{number}{4}
+      \field{title}{Leveraging business intelligence systems to enhance management control and business process performance in the public sector}
+      \field{volume}{30}
+      \field{year}{2021}
+      \field{pages}{914\bibrangedash 940}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1108/MEDAR-04-2021-1287
+      \endverb
+    \endentry
+    \entry{ref67}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=35bc858eca791b64c5528c92ab6d90ed}{%
+           family={Elbashir},
+           familyi={E\bibinitperiod},
+           given={M.\bibnamedelimi Z.},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=ed406187aa502b9c33849790106a0e4e}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=aba000d72eefdc475bcc999e04e33e83}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=dee4cd102059c454e8b364d2dc8220ff}{%
+           family={Collier},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d640f1f037cb61c7dee7f78a69a150f2}
+      \strng{fullhash}{8bc9e71896b3e2d5d2adfae566773575}
+      \strng{fullhashraw}{8bc9e71896b3e2d5d2adfae566773575}
+      \strng{bibnamehash}{d640f1f037cb61c7dee7f78a69a150f2}
+      \strng{authorbibnamehash}{d640f1f037cb61c7dee7f78a69a150f2}
+      \strng{authornamehash}{d640f1f037cb61c7dee7f78a69a150f2}
+      \strng{authorfullhash}{8bc9e71896b3e2d5d2adfae566773575}
+      \strng{authorfullhashraw}{8bc9e71896b3e2d5d2adfae566773575}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Global Operations and Supply Chain Management}
+      \field{number}{4}
+      \field{title}{The influence of digital technologies on supply chain coordination strategies and resilience}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{636\bibrangedash 655}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1108/JGOSCM14042023.202
+      \endverb
+    \endentry
+    \entry{ref63}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=1143c9e16ded98eac4a1b5f4a27e4e45}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3853906c14190e9fc67972538ad1c728}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=752248459068bc0fc4d120298bcc2b85}{%
+           family={Caldeira},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6115fd2e844de63647c2e777291a86ec}{%
+           family={Sá},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{81525b3016cb1cad0b48e1400adf18cb}
+      \strng{fullhash}{72a15a7dd6a1d4e0fad0241f08022207}
+      \strng{fullhashraw}{72a15a7dd6a1d4e0fad0241f08022207}
+      \strng{bibnamehash}{81525b3016cb1cad0b48e1400adf18cb}
+      \strng{authorbibnamehash}{81525b3016cb1cad0b48e1400adf18cb}
+      \strng{authornamehash}{81525b3016cb1cad0b48e1400adf18cb}
+      \strng{authorfullhash}{72a15a7dd6a1d4e0fad0241f08022207}
+      \strng{authorfullhashraw}{72a15a7dd6a1d4e0fad0241f08022207}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Trends and Innovations in Information Systems and Technologies (Advances in Intelligent Systems and Computing, Vol. 1159)}
+      \field{title}{An evaluation of how big data and data warehouses improve business intelligence decision making}
+      \field{year}{2020}
+      \field{pages}{609\bibrangedash 619}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/978-3-030-45688-7_61
+      \endverb
+    \endentry
+    \entry{ref66}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=9f491246312a47dbd5de57fdeda0ee91}{%
+           family={Oluoha},
+           familyi={O\bibinitperiod},
+           given={O.\bibnamedelimi M.},
+           giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5cd5255ea912e334964f73fc8a9148bd}{%
+           family={Odeshina},
+           familyi={O\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=621d08fd94c130ebd784ab0b4377b38c}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=97bad7c7cd5ab23152ef750acdc3e18e}{%
+           family={Okpeke},
+           familyi={O\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f732ab4c2997d2f7889a479c26fcb17c}{%
+           family={Attipoe},
+           familyi={A\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9fb01b6444e9209078a2b3a180febd42}{%
+           family={Orieno},
+           familyi={O\bibinitperiod},
+           given={O.\bibnamedelimi H.},
+           giveni={O\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{db2f10db02e3b3aaf85fe18e9bf700a8}
+      \strng{fullhash}{0e49d8eae85c06360180eb274b43c58e}
+      \strng{fullhashraw}{0e49d8eae85c06360180eb274b43c58e}
+      \strng{bibnamehash}{db2f10db02e3b3aaf85fe18e9bf700a8}
+      \strng{authorbibnamehash}{db2f10db02e3b3aaf85fe18e9bf700a8}
+      \strng{authornamehash}{db2f10db02e3b3aaf85fe18e9bf700a8}
+      \strng{authorfullhash}{0e49d8eae85c06360180eb274b43c58e}
+      \strng{authorfullhashraw}{0e49d8eae85c06360180eb274b43c58e}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Iconic Research and Engineering Journals}
+      \field{number}{5}
+      \field{title}{Optimizing business decision making with advanced data analytics techniques}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{184\bibrangedash 203}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://www.irejournals.com/formatedpaper/1703887.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.irejournals.com/formatedpaper/1703887.pdf
+      \endverb
+    \endentry
+    \entry{ref47}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=6ca055159a2b9fd922a14db7774762b9}{%
+           family={Matari},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi S.\bibnamedelimi Al},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4d86528e48b29a14b8d8a300accba81a}{%
+           family={Amiruddin},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=20918cc754448ce1ffca671803b74874}{%
+           family={Aziz},
+           familyi={A\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9c71abf86043fe93107690e16c053943}{%
+           family={Sharafi},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi Al},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e008e94fa479ed3fdc0c8b1c15e397c}
+      \strng{fullhash}{b5fc97673b9259a1ff4438e2c8618e57}
+      \strng{fullhashraw}{b5fc97673b9259a1ff4438e2c8618e57}
+      \strng{bibnamehash}{8e008e94fa479ed3fdc0c8b1c15e397c}
+      \strng{authorbibnamehash}{8e008e94fa479ed3fdc0c8b1c15e397c}
+      \strng{authornamehash}{8e008e94fa479ed3fdc0c8b1c15e397c}
+      \strng{authorfullhash}{b5fc97673b9259a1ff4438e2c8618e57}
+      \strng{authorfullhashraw}{b5fc97673b9259a1ff4438e2c8618e57}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{9}
+      \field{title}{The impact of dynamic accounting information system on organizational resilience: The mediating role of business process capabilities}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{4967}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su14094967
+      \endverb
+    \endentry
+    \entry{ref40}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=e42d2b402f660c0328fc99f073dcc442}{%
+           family={Mukagata},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5ef0fc7e157761800eb358aa561a8769}{%
+           family={Idoga},
+           familyi={I\bibinitperiod},
+           given={S.\bibnamedelimi I.},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=ccff6fdfb060ef8a0676e3edb6ccc186}{%
+           family={Kanbul},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b639ae9573cd49a48519bb00ff18fbf}
+      \strng{fullhash}{9b639ae9573cd49a48519bb00ff18fbf}
+      \strng{fullhashraw}{9b639ae9573cd49a48519bb00ff18fbf}
+      \strng{bibnamehash}{9b639ae9573cd49a48519bb00ff18fbf}
+      \strng{authorbibnamehash}{9b639ae9573cd49a48519bb00ff18fbf}
+      \strng{authornamehash}{9b639ae9573cd49a48519bb00ff18fbf}
+      \strng{authorfullhash}{9b639ae9573cd49a48519bb00ff18fbf}
+      \strng{authorfullhashraw}{9b639ae9573cd49a48519bb00ff18fbf}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Plasticity}
+      \field{title}{Glial guided radial migration enables early brain patterning and circuit assembly in the mouse olfactory bulb}
+      \field{year}{2022}
+      \field{pages}{Article ID 4891601}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1155/2022/4891601
+      \endverb
+    \endentry
+    \entry{ref58}{misc}{}{}
+      \name{author}{7}{}{%
+        {{hash=9846c5e1416c8ac7c609e785aa4f2ee3}{%
+           family={Sechi},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e449610c9c8a8253b6400f9fac41cad9}{%
+           family={Migliori},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=09437f78679e45f8a500b52a82eae18b}{%
+           family={Dassi},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6fda969d595fddbcda86728c9883d61a}{%
+           family={Pagliosa},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eadb024b659430b310dc2ca5edcd2663}{%
+           family={Bonora},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6413a049dfadc5af3cf1bf6788da3344}{%
+           family={Alacreu},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi Oradini},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=9ed65d41031da87082d1707faedc9888}{%
+           family={{AREU COVID 19 Response Team}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0aa50e79765c5b28ea419843e16359a}
+      \strng{fullhash}{4a53ad1c47c94d901127b0b879affbc3}
+      \strng{fullhashraw}{4a53ad1c47c94d901127b0b879affbc3}
+      \strng{bibnamehash}{c0aa50e79765c5b28ea419843e16359a}
+      \strng{authorbibnamehash}{c0aa50e79765c5b28ea419843e16359a}
+      \strng{authornamehash}{c0aa50e79765c5b28ea419843e16359a}
+      \strng{authorfullhash}{4a53ad1c47c94d901127b0b879affbc3}
+      \strng{authorfullhashraw}{4a53ad1c47c94d901127b0b879affbc3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Biomedica}
+      \field{number}{2}
+      \field{title}{Business Intelligence applied to Emergency Medical Services in the Lombardy region during SARS CoV 2 epidemic}
+      \field{volume}{91}
+      \field{year}{2020}
+      \field{pages}{39\bibrangedash 44}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23750/abm.v91i2.9557
+      \endverb
+    \endentry
+    \entry{ref80}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=32e563370422457790db030ab2c13183}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5bce781c7bf1a74772d067fbbfa9eac8}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={W.-M.},
+           giveni={W\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=958441e6de6e9054e5864b34a2b9ebb3}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={J.-J.},
+           giveni={J\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=9a75ee293f2555f40976345739087998}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7f367e4551cc58d215a918e2dbccacc6}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Z.-J.},
+           giveni={Z\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=75b6ca5e15a51a96d71f38006b96c7fd}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={X.-T.},
+           giveni={X\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{fullhash}{ac27e88541f3a9636fe8fed08b730644}
+      \strng{fullhashraw}{ac27e88541f3a9636fe8fed08b730644}
+      \strng{bibnamehash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{authorbibnamehash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{authornamehash}{a7bdfe934c877ee9b78d04fed4e61189}
+      \strng{authorfullhash}{ac27e88541f3a9636fe8fed08b730644}
+      \strng{authorfullhashraw}{ac27e88541f3a9636fe8fed08b730644}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Health Services Research}
+      \field{title}{How to adjust the expected waiting time to improve patients' satisfaction?}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{pages}{Article 835}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1186/s12913-023-09385-9
+      \endverb
+    \endentry
+    \entry{ref20}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=aa5a7c8780167efaa3ed45566a0806a0}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0b1fa87795fcee1bf33ec29a7be0362e}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2652a2079280de344081c0788264e6c3}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={H.\bibnamedelimi K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cefce6da56b3e3a34891e9b1171931e1}
+      \strng{fullhash}{cefce6da56b3e3a34891e9b1171931e1}
+      \strng{fullhashraw}{cefce6da56b3e3a34891e9b1171931e1}
+      \strng{bibnamehash}{cefce6da56b3e3a34891e9b1171931e1}
+      \strng{authorbibnamehash}{cefce6da56b3e3a34891e9b1171931e1}
+      \strng{authornamehash}{cefce6da56b3e3a34891e9b1171931e1}
+      \strng{authorfullhash}{cefce6da56b3e3a34891e9b1171931e1}
+      \strng{authorfullhashraw}{cefce6da56b3e3a34891e9b1171931e1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{5}
+      \field{title}{Comparative analysis of usability and accessibility of kiosks for people with disabilities}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{3058}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app13053058
+      \endverb
+    \endentry
+    \entry{ref21}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0a01eae06439a1fd60e42f2ca5f97593}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={C.-H.},
+           giveni={C\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a01eae06439a1fd60e42f2ca5f97593}
+      \strng{fullhash}{0a01eae06439a1fd60e42f2ca5f97593}
+      \strng{fullhashraw}{0a01eae06439a1fd60e42f2ca5f97593}
+      \strng{bibnamehash}{0a01eae06439a1fd60e42f2ca5f97593}
+      \strng{authorbibnamehash}{0a01eae06439a1fd60e42f2ca5f97593}
+      \strng{authornamehash}{0a01eae06439a1fd60e42f2ca5f97593}
+      \strng{authorfullhash}{0a01eae06439a1fd60e42f2ca5f97593}
+      \strng{authorfullhashraw}{0a01eae06439a1fd60e42f2ca5f97593}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{Designing self-ordering kiosks for older adults: Familiarity design focusing on representation, manipulation, and organization}
+      \field{volume}{138}
+      \field{year}{2024}
+      \field{pages}{108236}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.chb.2024.108236
+      \endverb
+    \endentry
+    \entry{ref70}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=b11dca8e51ed056bd9eb51deab8340e5}{%
+           family={Gentile},
+           familyi={G\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d5703fa5f7cfb3afb0ef4b0ee46401b7}{%
+           family={Khamis},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61ef4d4976c02c3c8217dcda347f3ded}{%
+           family={Milazzo},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6a7d03404101cc4f308e22b587842f8d}{%
+           family={Sorce},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=57ed26f0a0d5151069258c103575741d}{%
+           family={Malizia},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16ff7c595fb8cb5900a450aa150f8716}{%
+           family={Alt},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6bddc52aae0da1caab92caa6ec73f41}
+      \strng{fullhash}{cedb61d1c94fec28397900201e572cb7}
+      \strng{fullhashraw}{cedb61d1c94fec28397900201e572cb7}
+      \strng{bibnamehash}{a6bddc52aae0da1caab92caa6ec73f41}
+      \strng{authorbibnamehash}{a6bddc52aae0da1caab92caa6ec73f41}
+      \strng{authornamehash}{a6bddc52aae0da1caab92caa6ec73f41}
+      \strng{authorfullhash}{cedb61d1c94fec28397900201e572cb7}
+      \strng{authorfullhashraw}{cedb61d1c94fec28397900201e572cb7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Human--Computer Studies}
+      \field{title}{Predicting mid-air gestural interaction with public displays based on audience behaviour}
+      \field{volume}{144}
+      \field{year}{2020}
+      \field{pages}{102497}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ijhcs.2020.102497
+      \endverb
+    \endentry
+    \entry{ref72}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=1ee56a407427396e0489f3ea4de79aca}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5c383d316c6d8715d4079b350004a24a}{%
+           family={Cafaro},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{18a426231f79b87f3bc0e873b053ae27}
+      \strng{fullhash}{18a426231f79b87f3bc0e873b053ae27}
+      \strng{fullhashraw}{18a426231f79b87f3bc0e873b053ae27}
+      \strng{bibnamehash}{18a426231f79b87f3bc0e873b053ae27}
+      \strng{authorbibnamehash}{18a426231f79b87f3bc0e873b053ae27}
+      \strng{authornamehash}{18a426231f79b87f3bc0e873b053ae27}
+      \strng{authorfullhash}{18a426231f79b87f3bc0e873b053ae27}
+      \strng{authorfullhashraw}{18a426231f79b87f3bc0e873b053ae27}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information}
+      \field{number}{6}
+      \field{title}{Designing gestures for data exploration with public displays via identification studies}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{292}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/info15060292
+      \endverb
+    \endentry
+    \entry{ref28}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=22a2d7f8ac4a7781430f733c72a9e0af}{%
+           family={Namnakani},
+           familyi={N\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d8f5d2faa8844a0490129d8746b2baa}
+      \strng{fullhash}{2d8f5d2faa8844a0490129d8746b2baa}
+      \strng{fullhashraw}{2d8f5d2faa8844a0490129d8746b2baa}
+      \strng{bibnamehash}{2d8f5d2faa8844a0490129d8746b2baa}
+      \strng{authorbibnamehash}{2d8f5d2faa8844a0490129d8746b2baa}
+      \strng{authornamehash}{2d8f5d2faa8844a0490129d8746b2baa}
+      \strng{authorfullhash}{2d8f5d2faa8844a0490129d8746b2baa}
+      \strng{authorfullhashraw}{2d8f5d2faa8844a0490129d8746b2baa}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the ACM UIST/CHI}
+      \field{title}{GazeCast: Using mobile devices to allow gaze-based interaction with public displays}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1145/3588015.3589663
+      \endverb
+    \endentry
+    \entry{ref78}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=8bd55785cf721681236fe2650ee0f85d}{%
+           family={Komatsu},
+           familyi={K\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b5c8cce1771cba254a85d660994f1c3d}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f98a685b75309c4df93d44335bcbbfeb}{%
+           family={Yamada},
+           familyi={Y\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{8febab694b462cf70986f26cc5e52c60}
+      \strng{fullhash}{8febab694b462cf70986f26cc5e52c60}
+      \strng{fullhashraw}{8febab694b462cf70986f26cc5e52c60}
+      \strng{bibnamehash}{8febab694b462cf70986f26cc5e52c60}
+      \strng{authorbibnamehash}{8febab694b462cf70986f26cc5e52c60}
+      \strng{authornamehash}{8febab694b462cf70986f26cc5e52c60}
+      \strng{authorfullhash}{8febab694b462cf70986f26cc5e52c60}
+      \strng{authorfullhashraw}{8febab694b462cf70986f26cc5e52c60}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI '24)}
+      \field{title}{Waiting-time perceptions for faster countdowns/ups are not always better: design implications for progress indicators and public countdown displays}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1145/3613904.3641942
+      \endverb
+    \endentry
+    \entry{ref71}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=ea851e5d6f11ddf2449855ba95f2bdbb}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b92e342e4bd706bab54829c294dcd004}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2bdd48dc68b3d7c9d63e3844f2459fd6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9e0b7aad76fb21d6c5ec2f7f7f35eac3}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{deb4330d1a93ba4b8e944a97f0deaf7b}
+      \strng{fullhash}{1002b73c9719e820ca6f17ddf3e6d935}
+      \strng{fullhashraw}{1002b73c9719e820ca6f17ddf3e6d935}
+      \strng{bibnamehash}{deb4330d1a93ba4b8e944a97f0deaf7b}
+      \strng{authorbibnamehash}{deb4330d1a93ba4b8e944a97f0deaf7b}
+      \strng{authornamehash}{deb4330d1a93ba4b8e944a97f0deaf7b}
+      \strng{authorfullhash}{1002b73c9719e820ca6f17ddf3e6d935}
+      \strng{authorfullhashraw}{1002b73c9719e820ca6f17ddf3e6d935}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part F: Traffic Psychology and Behaviour}
+      \field{title}{Feedback frequency of graphical countdown timers affects pedestrian estimated waiting time at red lights}
+      \field{volume}{88}
+      \field{year}{2022}
+      \field{pages}{184\bibrangedash 196}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.trf.2022.05.015
+      \endverb
+    \endentry
+    \entry{ref24}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=9f883c02840d61ac6e539090e397a228}{%
+           family={Morales},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=138f9eabd7f65dc676445ba4b3357228}{%
+           family={Silva-Aravena},
+           familyi={S\bibinithyphendelim A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ae733877e4af70f8ed1cf093ef6f7eeb}{%
+           family={Sáez},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{90fd3a7c232aa103421ae7b3823ed8bc}
+      \strng{fullhash}{90fd3a7c232aa103421ae7b3823ed8bc}
+      \strng{fullhashraw}{90fd3a7c232aa103421ae7b3823ed8bc}
+      \strng{bibnamehash}{90fd3a7c232aa103421ae7b3823ed8bc}
+      \strng{authorbibnamehash}{90fd3a7c232aa103421ae7b3823ed8bc}
+      \strng{authornamehash}{90fd3a7c232aa103421ae7b3823ed8bc}
+      \strng{authorfullhash}{90fd3a7c232aa103421ae7b3823ed8bc}
+      \strng{authorfullhashraw}{90fd3a7c232aa103421ae7b3823ed8bc}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics}
+      \field{number}{23}
+      \field{title}{Reducing waiting times to improve patient satisfaction: A hybrid strategy for decision-support management}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{3743}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/math12233743
+      \endverb
+    \endentry
+    \entry{ref9}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=38241eaee18102cab15a125b0654c7da}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=92faacc6874983183ce7fb86e39f31ec}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eaa8c2958ef50eb052d8d0efab26e226}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f3b838f411db67d9bab62d3d7ee1846}
+      \strng{fullhash}{1f3b838f411db67d9bab62d3d7ee1846}
+      \strng{fullhashraw}{1f3b838f411db67d9bab62d3d7ee1846}
+      \strng{bibnamehash}{1f3b838f411db67d9bab62d3d7ee1846}
+      \strng{authorbibnamehash}{1f3b838f411db67d9bab62d3d7ee1846}
+      \strng{authornamehash}{1f3b838f411db67d9bab62d3d7ee1846}
+      \strng{authorfullhash}{1f3b838f411db67d9bab62d3d7ee1846}
+      \strng{authorfullhashraw}{1f3b838f411db67d9bab62d3d7ee1846}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics}
+      \field{number}{4}
+      \field{title}{A Review on Business Analytics: Definitions, Techniques, Applications and Challenges}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{899}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/math11040899
+      \endverb
+    \endentry
+    \entry{ref79}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=0d45379d6172c5cd1c389eb06ed5008c}{%
+           family={Bidari},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d89fd178d779af78f8d7e02c0d4a5413}{%
+           family={Jafarnejad},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=be458ed59375d1605b82a0d1a30c63a4}{%
+           family={Faradonbeh},
+           familyi={F\bibinitperiod},
+           given={N.\bibnamedelimi Alaei},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{221dfb5b42ce8f9078b0bd52cf2ba29e}
+      \strng{fullhash}{221dfb5b42ce8f9078b0bd52cf2ba29e}
+      \strng{fullhashraw}{221dfb5b42ce8f9078b0bd52cf2ba29e}
+      \strng{bibnamehash}{221dfb5b42ce8f9078b0bd52cf2ba29e}
+      \strng{authorbibnamehash}{221dfb5b42ce8f9078b0bd52cf2ba29e}
+      \strng{authornamehash}{221dfb5b42ce8f9078b0bd52cf2ba29e}
+      \strng{authorfullhash}{221dfb5b42ce8f9078b0bd52cf2ba29e}
+      \strng{authorfullhashraw}{221dfb5b42ce8f9078b0bd52cf2ba29e}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of Academic Emergency Medicine}
+      \field{number}{1}
+      \field{title}{Effect of queue management system on patient satisfaction in emergency department: A randomized controlled trial}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{pages}{e59}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.22037/aaem.v9i1.1335
+      \endverb
+    \endentry
+    \entry{ref12}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7df643c090a669581fe815de9b3d7583}{%
+           family={Fipke},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7df643c090a669581fe815de9b3d7583}
+      \strng{fullhash}{7df643c090a669581fe815de9b3d7583}
+      \strng{fullhashraw}{7df643c090a669581fe815de9b3d7583}
+      \strng{bibnamehash}{7df643c090a669581fe815de9b3d7583}
+      \strng{authorbibnamehash}{7df643c090a669581fe815de9b3d7583}
+      \strng{authornamehash}{7df643c090a669581fe815de9b3d7583}
+      \strng{authorfullhash}{7df643c090a669581fe815de9b3d7583}
+      \strng{authorfullhashraw}{7df643c090a669581fe815de9b3d7583}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Undergraduate thesis, University of British Columbia}
+      \field{title}{An investigation and application of usability and accessibility for an online queuing/help system}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://open.library.ubc.ca/soa/cIRcle/collections/undergraduateresearch/52966/items/1.0443556
+      \endverb
+      \verb{url}
+      \verb https://open.library.ubc.ca/soa/cIRcle/collections/undergraduateresearch/52966/items/1.0443556
+      \endverb
+    \endentry
+    \entry{ref84}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=a37924a92eb27c4386427affb13000fb}{%
+           family={Gómez-Carmona},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=fba6b1b1639a3699b433f0a3a80ae1f4}{%
+           family={Casado-Mansilla},
+           familyi={C\bibinithyphendelim M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=560cfef778229e351943510197766369}{%
+           family={López-de-Ipiña},
+           familyi={L\bibinithyphendelim I\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4896d22937a36f20d0f2d9b8b8e35261}{%
+           family={García-Zubia},
+           familyi={G\bibinithyphendelim Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d2645e539fb22cfcdd4c4ff022b8596}
+      \strng{fullhash}{e7746cac3d974a2153991fc9c9a7c957}
+      \strng{fullhashraw}{e7746cac3d974a2153991fc9c9a7c957}
+      \strng{bibnamehash}{6d2645e539fb22cfcdd4c4ff022b8596}
+      \strng{authorbibnamehash}{6d2645e539fb22cfcdd4c4ff022b8596}
+      \strng{authornamehash}{6d2645e539fb22cfcdd4c4ff022b8596}
+      \strng{authorfullhash}{e7746cac3d974a2153991fc9c9a7c957}
+      \strng{authorfullhashraw}{e7746cac3d974a2153991fc9c9a7c957}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Internet of Things}
+      \field{title}{Human-in-the-loop machine learning: Reconceptualizing the role of the user in interactive approaches}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{pages}{Article 101048}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.iot.2023.101048
+      \endverb
+    \endentry
+    \entry{ref76}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=bc4ca52c24359c1b58f657e48e6b8ceb}{%
+           family={{Wavetec}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc4ca52c24359c1b58f657e48e6b8ceb}
+      \strng{fullhash}{bc4ca52c24359c1b58f657e48e6b8ceb}
+      \strng{fullhashraw}{bc4ca52c24359c1b58f657e48e6b8ceb}
+      \strng{bibnamehash}{bc4ca52c24359c1b58f657e48e6b8ceb}
+      \strng{authorbibnamehash}{bc4ca52c24359c1b58f657e48e6b8ceb}
+      \strng{authornamehash}{bc4ca52c24359c1b58f657e48e6b8ceb}
+      \strng{authorfullhash}{bc4ca52c24359c1b58f657e48e6b8ceb}
+      \strng{authorfullhashraw}{bc4ca52c24359c1b58f657e48e6b8ceb}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital signage design guide for public queue environments (white paper)}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.wavetec.com/resources/
+      \endverb
+      \verb{url}
+      \verb https://www.wavetec.com/resources/
+      \endverb
+    \endentry
+    \entry{ref77}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2ea22cd0a77f69a37e7940cd4b74058c}{%
+           family={{Qmatic}},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ea22cd0a77f69a37e7940cd4b74058c}
+      \strng{fullhash}{2ea22cd0a77f69a37e7940cd4b74058c}
+      \strng{fullhashraw}{2ea22cd0a77f69a37e7940cd4b74058c}
+      \strng{bibnamehash}{2ea22cd0a77f69a37e7940cd4b74058c}
+      \strng{authorbibnamehash}{2ea22cd0a77f69a37e7940cd4b74058c}
+      \strng{authornamehash}{2ea22cd0a77f69a37e7940cd4b74058c}
+      \strng{authorfullhash}{2ea22cd0a77f69a37e7940cd4b74058c}
+      \strng{authorfullhashraw}{2ea22cd0a77f69a37e7940cd4b74058c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Best practices for queue display design and customer flow optimization (vendor guide)}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.qmatic.com/resources/
+      \endverb
+      \verb{url}
+      \verb https://www.qmatic.com/resources/
+      \endverb
+    \endentry
+    \entry{ref75}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=75944e557d9167e6e3d041bc346955f5}{%
+           family={Mallari},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b199716f5a3df81b1c023a1f803c9bda}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c321576f75299116d4713f3e92fdcde7}{%
+           family={Lara},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe59ca36a110f2ea2b9fa8beb9740312}
+      \strng{fullhash}{fe59ca36a110f2ea2b9fa8beb9740312}
+      \strng{fullhashraw}{fe59ca36a110f2ea2b9fa8beb9740312}
+      \strng{bibnamehash}{fe59ca36a110f2ea2b9fa8beb9740312}
+      \strng{authorbibnamehash}{fe59ca36a110f2ea2b9fa8beb9740312}
+      \strng{authornamehash}{fe59ca36a110f2ea2b9fa8beb9740312}
+      \strng{authorfullhash}{fe59ca36a110f2ea2b9fa8beb9740312}
+      \strng{authorfullhashraw}{fe59ca36a110f2ea2b9fa8beb9740312}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings / Conference Paper (IEOM / regional conference)}
+      \field{title}{CLIQUE: A web-based queue management system with real-time monitoring and notifications}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://ieomsociety.org/publications/ieom2022/
+      \endverb
+      \verb{url}
+      \verb https://ieomsociety.org/publications/ieom2022/
+      \endverb
+    \endentry
+    \entry{ref32}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f3cc6615bfbbaa4457b47517f69b0a39}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3cc6615bfbbaa4457b47517f69b0a39}
+      \strng{fullhash}{f3cc6615bfbbaa4457b47517f69b0a39}
+      \strng{fullhashraw}{f3cc6615bfbbaa4457b47517f69b0a39}
+      \strng{bibnamehash}{f3cc6615bfbbaa4457b47517f69b0a39}
+      \strng{authorbibnamehash}{f3cc6615bfbbaa4457b47517f69b0a39}
+      \strng{authornamehash}{f3cc6615bfbbaa4457b47517f69b0a39}
+      \strng{authorfullhash}{f3cc6615bfbbaa4457b47517f69b0a39}
+      \strng{authorfullhashraw}{f3cc6615bfbbaa4457b47517f69b0a39}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{21}
+      \field{title}{Kiosk service adoption as workplace flexibility: determinants of adoption and trust}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{8790}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su12218790
+      \endverb
+    \endentry
+    \entry{ref55}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=85b719ed67f24b5b85c350748ecf808f}{%
+           family={Hung},
+           familyi={H\bibinitperiod},
+           given={S.-Y.},
+           giveni={S\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=bbd76d99dff4497fda6976a4f0146e4f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{afe7e3a889647db4eeec4aa71f50a67d}
+      \strng{fullhash}{afe7e3a889647db4eeec4aa71f50a67d}
+      \strng{fullhashraw}{afe7e3a889647db4eeec4aa71f50a67d}
+      \strng{bibnamehash}{afe7e3a889647db4eeec4aa71f50a67d}
+      \strng{authorbibnamehash}{afe7e3a889647db4eeec4aa71f50a67d}
+      \strng{authornamehash}{afe7e3a889647db4eeec4aa71f50a67d}
+      \strng{authorfullhash}{afe7e3a889647db4eeec4aa71f50a67d}
+      \strng{authorfullhashraw}{afe7e3a889647db4eeec4aa71f50a67d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pacific Asia Journal of the Association for Information Systems}
+      \field{number}{1}
+      \field{title}{The role of organizational support and problem space complexity on organizational performance --- A business intelligence perspective}
+      \field{volume}{12}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://aisel.aisnet.org/pajais/vol12/iss1/1
+      \endverb
+      \verb{url}
+      \verb https://aisel.aisnet.org/pajais/vol12/iss1/1
+      \endverb
+    \endentry
+    \entry{ref73}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=81099bebb63477204b502c0393b9a4f0}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Y.-F.},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=09a3d39924f34b8088a19a86f578fc5e}{%
+           family={Leow},
+           familyi={L\bibinitperiod},
+           given={M.-C.},
+           giveni={M\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=e801f358cd6fe033cdec4fc75058acb4}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={L.-Y.},
+           giveni={L\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a575c9c952ea5410040fc72b3a5ae8f}
+      \strng{fullhash}{9a575c9c952ea5410040fc72b3a5ae8f}
+      \strng{fullhashraw}{9a575c9c952ea5410040fc72b3a5ae8f}
+      \strng{bibnamehash}{9a575c9c952ea5410040fc72b3a5ae8f}
+      \strng{authorbibnamehash}{9a575c9c952ea5410040fc72b3a5ae8f}
+      \strng{authornamehash}{9a575c9c952ea5410040fc72b3a5ae8f}
+      \strng{authorfullhash}{9a575c9c952ea5410040fc72b3a5ae8f}
+      \strng{authorfullhashraw}{9a575c9c952ea5410040fc72b3a5ae8f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Computer Science}
+      \field{title}{Evaluation of the extended TAM for digital signage augmented roadshow (DiSAR) using PLS-SEM}
+      \field{volume}{6}
+      \field{year}{2024}
+      \field{pages}{Article 1449908}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3389/fcomp.2024.1449908
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
