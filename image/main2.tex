@@ -1,0 +1,1026 @@
+% main.tex - Updated Research Template with new title page
+\documentclass{research}
+
+\usepackage{graphicx} %LaTeX package to import graphics
+\graphicspath{{images/}} %configuring the graphicx package
+
+\usepackage{ragged2e} % Add this to your preamble
+
+% Title Page Info
+\title{}
+\author{Fritzgerald Enric T. Imperial}
+\submission{A Special Project Presented to the Faculty of the College of Computer Studies, Naga College Foundation, Inc., Naga City}
+\researchyear{2026}
+
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{amsmath}      % REQUIRED for equation*, \Sigma, \times, \frac
+\usepackage{amssymb}      % for math symbols
+\usepackage{enumitem}     % for custom list labels
+\usepackage{booktabs} % Required for professional horizontal rules
+\usepackage{caption}  % For proper spacing between caption and table
+\usepackage{array}
+\usepackage{indentfirst}
+
+\graphicspath{{./}{./figures/}}
+
+\begin{document}
+
+% Generate Title Page
+\thispagestyle{empty}
+\begin{center}
+  \vspace*{1in}
+  {\Huge\bfseries Intelligent Queue Management System for Wait Time Transparency \par}
+  \vspace{1in}
+  An Undergraduate Research Paper\\
+  Presented to the Faculty of the\\
+  College of Computer Studies\\
+  Naga College Foundation, Inc.\\
+  Naga City\\
+  \vspace{1in}
+  In Partial Fulfillment of\\
+  The Requirements for the Degree\\
+  Bachelor of Science in Information System\\
+  \vspace{0.5in}
+  Kemuel Dave P. Alcebor\\
+  Adolf Rey Asagra\\
+  Paolo Eavan Z. Barcinas\\
+  Terence Joshua De Vega\\
+  Ehrvayn Rayven Olivera\\
+   \vspace*{0.8in}
+  2027
+\end{center}
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\listoffigures
+
+\clearpage
+
+\listoftables
+
+\clearpage
+
+\clearpage
+
+%-----------------------------
+% Chapter 1
+%-----------------------------
+\chapter{Introduction}
+
+\section{Background of the Study}
+
+Higher education institutions across the world continue to embrace digital transformation to enhance administrative efficiency and student experience. Globally, higher education is increasingly moving toward smart-campus strategies aligned with computer vision, automation, and data-driven intelligence. Modern queue management systems integrating Computer Vision (CV) detection, AI predictions, and mobile-based alerts have proven effective in improving real-time service flow and reducing wait times for students [5]. These developments reflect a broader shift toward transparent, technology-driven service delivery in academic institutions worldwide.
+
+Despite these global advancements, many universities and colleges in the Philippines continue to rely heavily on traditional, manual queuing practices. This reliance on outdated systems is consistent with findings from other Philippine higher education institutions (HEIs), which highlight persistent inefficiencies in manual queueing practices, including uncertain waiting periods and the absence of reliable notification systems [1]. During high-volume periods such as enrollment and cashiering, these issues intensify, leading to overcrowding, delays, and heightened student stress—patterns similarly reported in studies on service bottlenecks within public and educational institutions [2].
+
+This national pattern is evident in the Bicol Region, where most higher education institutions, including the institution under study, continue to operate manual or semi-digital queueing systems. Observations at the institution reveal long lines forming as early as opening hours, congested waiting areas, and students anxiously crowding service windows to confirm their queue status. These conditions recur every enrollment period and during peak payment schedules, illustrating how outdated queuing processes disrupt the normal flow of campus operations. The lack of transparency in waiting times is one of the most pressing concerns: students often wait for an uncertain period with no indication of how many individuals remain ahead of them or when they will be served, prompting many to return repeatedly to check their queue number manually or, in some cases, miss their turn entirely due to the absence of an announcement system.
+
+The persistence of this problem can be attributed to the absence of automation, real-time updates, and predictive capabilities within existing queueing setups. Without smart features such as automated notifications, queue tracking, or estimated wait-time predictions, miscommunication frequently occurs between personnel and students, resulting in wasted time and dissatisfaction. These institutional challenges place pressure not only on students but also on administrative personnel, who face difficulty tracking student volume, coordinating service flow, and managing records while addressing repeated inquiries from students waiting in line. Research confirms that manual queue management significantly reduces staff productivity and increases processing errors [3], a pattern consistent with the inefficiencies observed within the institution, particularly during enrollment and financial transactions. Studies further emphasize that queue transparency and automated service alerts can substantially improve user experience and reduce congestion [4], reinforcing the need for modernization.
+
+If similar innovations were implemented in Bicol institutions, they could significantly enhance service delivery, support operational efficiency, and align local campuses with current smart-campus trends. Addressing these persistent gaps in automation, transparency, and predictive capability is therefore both necessary and timely for institutions such as the one under study.
+
+Recognizing these persistent issues—congestion, uncertainty, and delays—this study proposes the development of an Intelligent Queue Management System with Wait-Time Transparency. By integrating real-time monitoring through Computer Vision technology, automated alerts, and predictive analytics, the proposed system aims to address the long-standing problems associated with manual queueing. Ultimately, this research seeks to improve the overall queue experience for students, streamline administrative workflows, and contribute to the institution's broader digital transformation efforts.
+
+\section{Review of Related Literature}
+
+\subsection*{ Impact of Intelligent QMS on Customer Satisfaction(kualng) }
+
+A Queue Management System (QMS) is a conceived system that is used to manage service lines, control the movement of customers, and offer a formalized control of the waiting process in either a physical or digital service call center. Intelligent QMS models that are modern incorporate automation, data analytics, and real-time information delivery to increase transparency, efficiency, and the overall user experience. 
+
+Quality Management Systems (QMS) play a significant role in assuring the uniformity of product and service quality, a factor that significantly influences customer satisfaction [6][7][8][9]. Empirical research across the construction, manufacturing, and service industries demonstrates that an effective QMS enhances process reliability, operational efficiency, and service consistency, thereby bolstering customer trust and loyalty [10][11][12]. In the context of Industry 4.0 technologies, intelligent QMS, referred to as Quality 4.0, incorporates automation, Artificial Intelligence (AI), and Computer Vision (CV)-based monitoring systems, alongside real-time analytics, to proactively monitor and enhance quality [13][14][15][16]. 
+
+Such systems augment traceability, control, and responsiveness, thereby enriching customer experiences [17][18][19]. AI-enabled analytical frameworks, together with Computer Vision–based detection and digital feedback mechanisms, facilitate organizations in forecasting and mitigating service and quality-related challenges, thereby augmenting uniformity and user satisfaction [20][21][22][23]. Strategies centered on customer engagement within sophisticated Quality Management Systems (QMS), encompassing real-time monitoring through Computer Vision, tailored service flow control, and continuous feedback mechanisms, significantly bolster customer satisfaction and system efficiency [24][25][26][27]. 
+
+ISO 9001 certification and structured QMS frameworks ensure standardized processes and measurable improvements, supporting customer satisfaction [28][6][7]. However, studies directly measuring full-scale intelligent QMS impact on satisfaction remain limited, especially in service sectors integrating Computer Vision–based queue monitoring and prediction systems [29][20][22][19][30][21]. Your study addresses this gap by examining how intelligent QMS with Computer Vision capabilities affects user satisfaction, offering both practical and theoretical insights [6][9][10].
+
+Intelligent Queue Management Systems integrate Computer Vision technology, structured processes, and customer-focused strategies to enhance quality, consistency, and responsiveness. Although the advantages pertaining to user satisfaction are apparent, empirical investigations regarding full Computer Vision–based queue implementation are still limited, thereby underscoring the significance of research endeavors such as yours that examine the direct influence of intelligent QMS on user experience. 
+
+\subsection*{Business Intelligence (BI) Systems for Dynamic Demand Matching }
+Business Intelligence BI is a combination of technologies, processes, and analysis that are applied to gather, combine, and analyze organizational data in order to make informed decisions. BI systems use data analytics, reporting tools, and visualization platforms to convert raw operating information into actionable information so that an organization can discover patterns, help predict demand variability and can optimize resource allocation in real-time.
+
+Business Intelligence BI systems are significantly important for helping companies make smart decisions based on data and boost their overall performance in every industry \cite{ref42}, \cite{ref43}, \cite{ref44}, \cite{ref45}. Using BI tools that mix analytics, dashboards, and reporting lets businesses keep an eye on trends, guess what is going to happen next, and jump on changes fast when demand spikes \cite{ref46}, \cite{ref48}, \cite{ref49}, \cite{ref50}.
+
+The application of artificially intelligent systems and machine learning gives better BI through the use of predictive analytics, real-time insights, and automated decision support, which would further refine the accuracy in demand forecasting and resource distribution \cite{ref57}, \cite{ref68}, \cite{ref42}, \cite{ref56}. The joining up with the Internet of Things IoT platforms in this regard allows for easier monitoring, data gathering, and dynamic changes especially in difficult systems \cite{ref41}, \cite{ref69}. AI systems and machine learning improve Business Intelligence with predictive analytics, real-time insights, and automatic decisions. This makes demand forecasting and resource sharing more accurate. Connecting with Internet of Things platforms also makes monitoring, data collection, and quick changes easier, even in complex systems.
+
+BI systems on the other hand also render customer segmentation, personalizing strategies, and compliance monitoring, contributing to organizational agility \cite{ref49}, \cite{ref62}, \cite{ref59}. The cloud-based solutions provide more accessibility, scalability, and security thus organizations are able to react more quickly to market changes \cite{ref52}, \cite{ref60}, \cite{ref67}.
+
+Furthermore, BI supports cross-departmental coordination and supply chain optimization, linking analytics with process performance to maintain competitiveness \cite{ref63}, \cite{ref66}, \cite{ref47}. In sectors such as manufacturing, finance, energy, and emergency services, BI-driven decisions improve resilience, efficiency, and strategic planning \cite{ref40}, \cite{ref58}, \cite{ref41}.
+
+Business Intelligence BI systems turn raw data into useful information that helps match demand, improve how things run, and make smart decisions. Using AI, machine learning, and IoT, BI can predict future trends and make quick changes when needed and this is crucial in cloud technology and teamwork across departments because it makes BI easier to use and stronger. Also, when set up well and linked to company goals, BI brings the best results. Overall, BI helps businesses prepare for demand, work better, and stay ahead in changing markets \cite{ref42}, \cite{ref69}, \cite{ref50}, \cite{ref80}.
+
+\subsection*{UI/UX Design Principles for Public Information Displays}
+The principles of User Interface (UI) and User Experience (UX) are the guidelines in developing digital interfaces that are intuitive, clear, and effective for the end-user. UI focuses on the visual and interactive aspects of a system, whereas UX emphasizes usability, intelligibility, and satisfaction during user interaction. These design principles are crucial in public information displays, where users must quickly understand information, navigate seamlessly, and experience reduced cognitive load while accurately interpreting service updates \cite{ref54},\cite{ref55}.
+
+Recent studies on UI/UX design in queue management displays, public notifications, kiosks, and real-time information systems have grown significantly since 2020. Research highlights the influence of screen layout elements such as size, contrast, text style, and placement on user attention and comprehension \cite{ref54}. Interactive features like gestures, touch, and proximity can increase engagement and attention, but excessive complexity may cause cognitive overload \cite{ref56},\cite{ref57},\cite{ref58}.
+
+Another body of literature emphasizes feedback mechanisms to reduce perceived waiting time and user anxiety, including countdown timers, progress indicators, loading states, and context-sensitive alerts \cite{ref59},\cite{ref60},\cite{ref61}. Visualizing unavoidable delays through animated placeholders or staged content helps maintain user trust, while predictive displays require accurate frequency of updates and error margins for fairness and transparency \cite{ref62},\cite{ref63},\cite{ref53}. Multimodality, accessibility, and human-centered design form another key focus. Studies show that large touchscreens, simplified navigation, familiar metaphors, redundant notification systems, ethical data practices, and privacy protection foster more inclusive and equitable queueing experiences \cite{ref54},\cite{ref55},\cite{ref38},\cite{ref64},\cite{ref62},\cite{ref4}.
+
+Other research demonstrates that integrating real-time information systems with AI and Computer Vision improves adaptability, predictive accuracy, and overall performance of queue management systems \cite{ref64},\cite{ref65},\cite{ref66},\cite{ref67},\cite{ref68},\cite{ref56},\cite{ref53},\cite{ref69},\cite{ref54}. These studies collectively highlight the importance of legibility, visual hierarchy, timely feedback, accessibility, and modular system architecture. Implementing iterative, user-driven design and pilot-based validation ensures that a Computer Vision–enabled, AI-assisted queue management system can deliver measurable improvements to both process efficiency and user experience \cite{ref56},\cite{ref61},\cite{ref59},\cite{ref63},\cite{ref55},\cite{ref65}.
+
+\section{Synthesis of the State-of-the-Art }
+This study is anchored on developing a CV-enabled intelligent queue management system that improves wait-time transparency for students and staff in a higher education setting, guided by objectives that range from documenting the current queueing process to designing and evaluating a system capable of real-time monitoring, prediction, and automated notification. The following sections synthesize the literature reviewed under four themes: customer wait time perception, wait-time estimation algorithms, existing queue management systems, and the role of predictive analytics in service systems.
+
+Research on customer wait time perception consistently shows that satisfaction depends less on the actual duration of a wait and more on whether that wait matches or violates a person's expectations. Caruelle, Lervik-Olsen, and Gustafsson (2023) found that customers respond more negatively to a wait exceeding what they expected than to an objectively long one that was anticipated, while Zhang et al. (2023) confirmed a similar pattern among outpatients, where perceived rather than actual wait time was the stronger predictor of satisfaction. This expectation-based effect extends into digital and on-demand contexts as well: Gallino, Karacaoglu, and Moreno (2023) showed that in-process delays measurably change customer behavior in online retail, and Cui, Lu, Sun, and Golden (2024) found that how a delivery speed is promised, not just how fast it actually is, shapes purchase decisions. Similarly, Yu, Zhang, and Zhou (2022) demonstrated in a large-scale field experiment that simply disclosing delay information in a virtual queue changed rider behavior on a ride-sharing platform, reinforcing that transparency itself is a lever for managing perception, independent of the wait's true length. Ayodeji and Rjoub (2021) further found that waiting time mediates the relationship between self-service technology and customer loyalty, suggesting that how a wait is experienced can influence outcomes well beyond the immediate transaction. Taken together, this body of work supports the premise that a queue management system's value lies as much in how it communicates wait information as in how much it shortens the wait itself.
+
+Wait-time estimation algorithms have moved away from static or rule-based calculations and toward models that learn continuously from historical and real-time data. Taton, Saha, Islam, and Mostaque (2024) and Taton, Saha, Akter, Islam, and Mostaque (2024) both applied machine learning and ensemble methods directly to queue data, finding that models trained on live conditions outperformed conventional estimators. This is echoed in healthcare contexts, where Benevento, Aloini, and Squicciarini (2023) compared several machine learning techniques for predicting emergency department waits and found that ensemble methods incorporating queue-based predictors achieved the strongest results. Some approaches go further by combining computer vision with wait-time modeling: Mamedov, Kuplyakov, and Konushin (2021) estimated queue waiting time through person re-identification from video, while Abdelhalim and Zhao (2025) built an end-to-end computer vision framework for transit travel time prediction using ordinary roadside imagery, both suggesting that visual sensing can substitute for or supplement manual queue-tracking data. At the same time, Chocron, Cohen, and Feigin (2022) and Glynn (2022) argue that queueing theory has not become obsolete; rather, classical queueing models still provide the structural assumptions about arrivals and service rates that machine learning approaches use as a foundation, capturing what pure formulas would otherwise miss in irregular, real-world conditions. Loureiro et al. (2023) support this hybrid direction, applying a structured data-mining methodology to predict queue waiting time across multiple domains, and finding it generalizes better than a single-domain model. Collectively, this literature supports the use of a hybrid, data- and vision-driven approach to wait-time estimation over a single fixed formula.
+
+Existing queue management systems have evolved considerably from manual, number-based dispensers toward IoT- and sensor-driven platforms, though most documented deployments remain either industrial or health-sector focused rather than educational. Ghazal, Hamouda, and Ali (2015) proposed one of the earlier real-time queue-tracking systems, allowing ticket holders to leave and return before their turn was called, while Rashid and Gillani (2019) applied similar IoT sensing specifically to reduce overcrowding in healthcare queues. Klimek (2020) extended this further by proposing a context-aware, sensor-based queue system capable of adjusting to different types of customers within an intelligent environment, rather than treating all queue members identically. Within the Philippine higher-education setting specifically, several studies mirror the exact problem this study addresses: Campos (2019) combined queuing methodology with SMS and barcode technology for a university's advising and enrollment process, Maala, Sebua, and Evangelista (2023) documented queue management challenges at another Philippine university foundation, and Espinosa, Balmes, and Serrano (2024) proposed an automated enrollment queueing system aimed specifically at improving student experience and operational efficiency. Even so, few of these systems integrate computer vision-based detection with predictive wait-time estimation in a single deployed academic system, which is the specific gap this study responds to.
+
+Predictive analytics extends a queue management system's capability beyond simply displaying current status, allowing administrators to anticipate demand and reallocate resources before congestion occurs. In service operations broadly, Schéele, Haftor, and Pashkevich (2022) modeled how delays accumulate and propagate across interacting service events, while Batt and Terwiesch (2015) and Dong, Yom-Tov, and Yom-Tov (2019) showed, in emergency department settings, that predictive delay announcements measurably affect patient behavior and hospital coordination. This predictive capability is not limited to healthcare: Salari, Liu, and Shen (2022) applied real-time forecasting to delivery time promising in online retail, and Ampountolas (2021) demonstrated that hotel demand forecasting models incorporating machine learning outperformed traditional time-series approaches during periods of fluctuating demand. In organizational and financial contexts, Doumpos, Zopounidis, Gounopoulos, Platanakis, and Zhang (2023) reviewed how predictive analytics supports operational decision-making in banking, and Ramos, García-Dorado, and Aracil (2023) showed that predictive workforce capacity planning improved proactive troubleshooting in network operations centers. Taken together, this literature suggests that the same predictive principles used to manage delay, demand, and resource allocation across these varied service domains can reasonably be expected to improve coordination between offices such as Enrollment and Cashiering once applied to an academic institution.
+
+\section{Gap Bridged by the Study}
+While literature emphasizes automation, real-time analysis, and user-centered design across Quality Management Systems, Business Intelligence, and UI/UX domains, research integrating these elements into intelligent queue management remains limited, particularly regarding multi-office coordination, wait-time transparency with predictive communication, the operational impact of predictions beyond algorithmic accuracy, accessibility for diverse digital literacy levels, mixed-method evaluation combining quantitative service metrics with qualitative user experience data, and privacy-by-design principles.
+
+This study addresses these gaps through a system that applies UI/UX design principles to public information displays for clearer, more accessible wait-time communication; integrates Computer Vision-based real-time monitoring, queue tracking, and automated notifications across the Enrollment and Cashiering offices; and incorporates predictive analytics to reduce uncertainty and improve wait-time visibility for students. Beyond development, the study evaluates the system through both user acceptance and satisfaction and its measurable effectiveness at reducing uncertainty compared to the institution's existing queue setup, directly responding to the gaps identified above through a single, evaluated prototype rather than isolated technical components.
+
+\section{Theoretical Framework}
+This study's theoretical foundation rests upon four established, complementary frameworks, distinguished as primary and supporting according to their role in the system. The primary frameworks directly govern the system's core function of predicting and communicating wait times: Queuing Theory provides the mathematical basis for estimating how long users will wait, while the concept of Operational Transparency explains why communicating that estimate matters to the user experience. The supporting frameworks, by contrast, do not generate the prediction or the transparency mechanism itself, but determine whether users adopt the system and how effectively the information reaches them: the Technology Acceptance Model (TAM) explains user adoption behavior, while Human-Computer Interaction (HCI) Theory governs the design of the interfaces through which transparent information is delivered. Together, these four frameworks—Queuing Theory by Agner Krarup Erlang; the concept of Operational Transparency, associated with Buell and Norton [74], with supporting empirical evidence from [71]; the Technology Acceptance Model by Fred D. Davis, as cited by Tan, Leow, and Ong [73]; and Human-Computer Interaction Theory by Vannevar Bush, Douglas Engelbart, and Ben Shneiderman, as cited by Gentile et al. [68]—provide the analytical, behavioral, and design foundations of the study.
+
+First, Queuing Theory describes how arrival rates, service rates, and system utilization influence waiting times and overall queue behaviour, forming the mathematical foundation for analyzing and optimizing service flows. This foundational framework continues to inform contemporary service system research; Zhao and Gilbert [75] apply a queuing theory-based approach to evaluate service delivery quality, demonstrating its continued relevance in estimating wait times, assessing service quality, and reducing delays in modern service settings. This makes Queuing Theory vital to the study, as it provides the quantitative basis for predicting congestion, reducing delays, and improving resource management in the proposed system.
+
+Second, the concept of Operational Transparency holds that the timeliness, clarity, and consistency of information reduce user uncertainty and enhance perceived fairness and satisfaction during waiting periods. Empirical evidence from [71] shows that frequent and visible updates such as countdowns and estimated wait times significantly decrease users' perceived waiting time. This underscores the importance of ensuring that the system delivers real-time information across multiple channels to maintain transparency and improve the overall waiting experience.
+
+Third, the Technology Acceptance Model (TAM), originally developed by Davis, explains how users adopt new technology, emphasizing that perceived usefulness and perceived ease of use are key predictors of system adoption. Recent application of this model by Tan, Leow, and Ong [73] demonstrates its continued relevance in evaluating user acceptance of digital signage and public information displays. In this study, TAM is important because it helps evaluate whether students and staff are likely to accept the smart queue management system, guiding improvements in design and implementation to ensure higher usability and engagement.
+
+Finally, Human-Computer Interaction (HCI) Theory assures the accessibility, intuitiveness, and cognitive effectiveness of interfaces. Recent research by Gentile et al. [68] shows how effective information hierarchy, visibility, and user-focused interaction design make interfaces easier to understand and interact with, which directly informs the system's queue displays, notification style, and overall user interface layout.
+
+Together, these four frameworks provide a unified foundation for the study. Queuing Theory and the concept of Operational Transparency, as the primary frameworks, support the system's predictive functions and guide how wait-time data is communicated to reduce uncertainty. TAM and HCI, as supporting frameworks, explain user adoption and ensure that this transparent information is delivered through clear and accessible interfaces. Combined, they justify the system's design, functionality, and user-centered approach. The relationship among these four frameworks is illustrated in Figure 1.1, which maps how each contributes to a distinct stage of the study's theoretical foundation, from wait-time prediction and transparent communication to user adoption and interface design.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        height=0.5\textheight,
+        keepaspectratio
+    ]{Theoretical_Paradigm}
+
+    \caption{Theoretical Framework}
+\end{figure}
+illustrates the theoretical foundation of the proposed Intelligent Queue Management System for Wait-Time Transparency. Queuing Theory and Operational Transparency provide the primary basis for predicting waiting times and communicating queue information transparently. The Technology Acceptance Model (TAM) and Human–Computer Interaction (HCI) Theory support the system by explaining user acceptance and guiding the design of a usable and effective interface.
+
+\section{Conceptual Framework}
+The conceptual framework illustrates the Input, Process, Output, Outcome (IPOO) paradigm of this study. It shows how the proposed Intelligent Queue Management System for Wait Time Transparency enhances service efficiency and user experience across key campus departments. It explains how various inputs, such as human resources, Computer Vision (CV) devices, AI algorithms, and institutional data, are transformed through monitoring, analytics, and automated queue workflows to produce measurable outputs and long-term outcomes. 
+Input Stage. The Input stage identifies the essential resources required to design, develop, and implement the Intelligent Queue Management System for Wait Time Transparency. These include: (1) Human resources, including BSIS student developers, school administrators, and personnel responsible for system construction, deployment, and maintenance. (2) Technological devices including Computer Vision (CV) cameras, QR code scanners, Microsoft Visio for modeling, and microcontrollers used for real-time data capture. (3) AI algorithms, which forecast queue lengths, optimize service allocation, and analyze operational data. (4) Institutional inputs, including data from enrollment and cashiering, along with relevant policies and workflows. (5) Infrastructure, which includes necessary hardware and software to support system operation. Together, these inputs enable the creation of an intelligent, responsive, and data-driven queue management solution. 
+Process Stage. The Process stage describes activities that transform inputs into outputs. Key activities include: (1) Registration of queues and issuance of digital tickets via kiosks, web portals, or mobile applications. (2) Real-time data collection using Computer Vision (CV) cameras to monitor queue length, service times, and crowd flow. (3) AI-driven analysis to forecast waiting times, optimize counter assignments, and suggest operational adjustments. (4) Visualization and monitoring through dashboards, allowing administrators to track service performance and resource utilization. (5) Feedback integration and performance evaluation to ensure continuous system improvement. This stage ensures that the queue management system operates intelligently, responds dynamically to demand, and improves operational efficiency. 
+Output Stage. The Output stage reflects immediate results from the system processes, including: (1) Automation and streamlining of campus service operations, reducing reliance on manual queueing. (2) Shorter response times and minimized congestion during peak periods. (3) Improved coordination, transparency, and communication across Enrollment and Cashiering services. (4) Enhanced user satisfaction through real-time notifications, estimated wait times, and clear service updates. 
+Outcome Stage. The Outcome stage represents long-term institutional benefits achieved through consistent system deployment, including: (1) Increased operational efficiency, transparency, and service quality. (2) Data-driven decision-making using AI and analytics to plan, predict, and improve future operations. (3) Encouragement of digital innovation and adoption of Computer Vision and AI technologies aligned with institutional and national digital transformation goals. (4) Contribution to broader Smart Campus initiatives, fostering sustainability, technological advancement, and user-focused innovation. 
+Overall, the conceptual framework demonstrates how the integration of human, technological, and informational resources can produce an Intelligent Queue Management System for Wait Time Transparency that is efficient, inclusive, and capable of improving both operational performance and user experience across campus service.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        height=0.5\textheight,
+        keepaspectratio
+    ]{ConceptualParadigm}
+
+    \caption{Conceptual Framework}
+\end{figure}
+The conceptual paradigm presents the Input–Process–Output–Outcome (IPOO) flow of the proposed Intelligent Queue Management System for Wait-Time Transparency. It illustrates how the identified inputs are transformed through system processes to generate improved queue management, enhanced operational efficiency, real-time wait-time transparency, and better user experience for campus stakeholders.
+
+\section{Objectives of the study}
+
+The general objective of this study is to develop a CV-enabled intelligent queue management system that enhances wait-time transparency for students in higher education service environments. Specifically, this study aims to:
+
+\begin{enumerate}
+
+    \item Identify the current queue information and wait-time notification system utilized by the institution.
+
+    \end{enumerate}
+\begin{enumerate}
+    \item Determine the challenges encountered by students and staff in the present queueing and notification processes.
+\end{enumerate}
+
+
+\begin{enumerate}
+    \item Apply and incorporate appropriate UI/UX design principles to improve clarity, usability, and wait-time comprehension.
+\end{enumerate}
+
+    \item Design a CV-enabled queueing system in terms of:
+    \begin{enumerate}
+        \item System Acceptability
+        \item System Usability
+        \item System Reliability
+    \end{enumerate}
+
+\begin{enumerate}
+    \item Assess the effectiveness of the system in reducing uncertainty and enhancing wait-time visibility.
+\end{enumerate}
+
+\end{enumerate}
+
+\section{Assumptions}
+This study is grounded on several assumptions that guide its development and implementation:
+
+\begin{enumerate}
+
+    \item The current queue information and wait-time notification system can be accurately identified.
+
+    \item Students and staff face challenges in the present queueing and notification processes regarding convenience, fairness, and accessibility of queue information.
+
+    \item Applying appropriate UI/UX design principles improves public wait-time comprehension, clarity, and usability.
+
+    \item A CV-enabled queueing system can be designed in terms of A. system acceptability, B. system usability, and C. system reliability.
+    
+    \item Users actively participate in and are satisfied with the developed system, particularly regarding usability, perceived transparency, reliability, and overall user experience.
+    
+    \item The proposed system effectively reduces uncertainty and enhances wait-time visibility for students compared to the existing queue management setup.  
+
+\end{enumerate}
+
+\section{Scope and Delimitation}
+
+The primary objective of the study is to develop and assess a functional system implemented in the Enrollment Office and Cashiering Office of a higher-education institution located in Naga City, Philippines.
+
+This study focuses on the design, development, and evaluation of an Intelligent Queue Management System aimed at enhancing wait-time transparency within campus operations. By integrating Computer Vision (CV) devices and Artificial Intelligence (AI) technologies, the system seeks to improve service efficiency and the overall user experience for students and staff, addressing common issues such as long waits, overcrowded service areas, and ineffective queue information. The evaluation will focus on key performance indicators such as reduction in waiting times, improvement in service throughput, and user satisfaction, with data collected and analyzed over one semester during the 2025--2026 academic year. The system will utilize Computer Vision cameras and QR scanners, alongside AI-based predictive analytics and user interfaces accessible via kiosks and mobile applications.
+
+The study is limited to these service areas within a single institution, and the results may not be directly generalizable to other campuses or service environments. Implementation, testing, and evaluation are confined to the specified devices, departments, and one semester of operation, providing a focused and measurable assessment of the system's impact within the selected institutional context. These delimitations ensure that the study remains practical while providing valuable insights into improving queue management and wait-time transparency in higher education settings.
+
+\section{Significance of the Study}
+
+This study benefits the following stakeholders in advancing rural healthcare delivery and digital health innovation:
+
+\textbf {Institutional or Administrative Beneficiaries.} The study provides the institution with a data-driven platform to monitor, manage, and optimize service operations in Enrollment and Cashiering departments. Administrators will gain access to real-time dashboards, predictive analytics, and automated notifications, enabling better counter allocation, resource planning, and operational transparency. This supports improved institutional efficiency and the institution's ongoing digital transformation into a Smart Campus.
+
+\textbf {Students and Staff.} The proposed system offers students and staff a more efficient and user-friendly service experience. By providing shorter waiting times, real-time queue status updates, and clear service notifications, it reduces frustration and uncertainty during peak service periods. This leads to increased satisfaction and smoother interactions with administrative services.
+
+\textbf {Academic/Research Community.} The study contributes to the body of knowledge on the integration of Computer Vision (CV) and AI in queue management systems within educational contexts—a relatively underexplored field. The findings serve as a reference for future research on multi-department, smart-campus implementations and provide empirical data, architectural models, and best-practice recommendations for scholars in systems design, educational technology, and institutional service optimization.
+
+\textbf {Community or City Stakeholders.} Beyond the campus, the study aligns with broader Smart Campus and Smart City initiatives by demonstrating how educational institutions can adopt intelligent systems to support digital innovation, operational transparency, and user-centered services. Local government, industry partners, and community stakeholders can use the insights to inform policy, investment, and technology deployment strategies in educational and civic environments.
+
+\textbf {System Developers and Technology Providers.} The study provides system developers, IT personnel, and technology vendors with practical insights into designing, implementing, and evaluating CV- and AI-enabled queue systems in complex service settings. Documented requirements, user feedback, performance metrics, and architectural lessons will guide future technology development and service-oriented solutions in educational institutions and similar organizations.
+
+\section{Definition of Terms}
+
+This section clarifies important terms used in the study to ensure consistent understanding and avoid misunderstandings.
+
+\textbf {Queue Management System (QMS).} A system designed to organize and regulate customer or user waiting lines through digital or automated processes to improve service flow and reduce waiting time. In this study, it refers to the current manual or semi-digital queue management processes in the Enrollment and Cashiering offices.
+
+\textbf {Intelligent Queue Management System (IQMS).} An enhanced queue management system integrated with technologies such as Computer Vision (CV), AI, and BI to monitor queues, predict waiting time, automate service allocation, and provide real-time transparency. In this study, it refers to the proposed system that will be developed and evaluated to improve wait-time transparency and service efficiency.
+
+\textbf {Computer Vision (CV).} A field of artificial intelligence that enables computers to interpret and process visual information from the real world using cameras and detection algorithms to extract meaningful data from images or video streams. In this study, CV refers to the Computer Vision cameras and YOLOv8-based detection system used to monitor queue length, user presence, and crowd metrics in real time.
+
+\textbf {Artificial Intelligence (AI).} A technology that enables systems to analyze data, learn patterns, predict events, and make automated decisions to optimize service. In this study, AI is used to estimate wait times, predict peak hours, and support dynamic resource allocation.
+
+\textbf {Business Intelligence (BI).} A data-driven analytical framework used to interpret real-time and historical data to support decision-making, dynamic resource allocation, and performance monitoring. In this study, BI refers to the dashboards and analytics tools used by administrators to monitor queue performance.
+
+\textbf {Real-Time Monitoring.} The continuous tracking and display of queue information such as queue length, number of clients served, and estimated waiting time as events happen. In this study, it refers to the IQMS tracking service activity and displaying queue status in real time to users and administrators.
+
+\textbf {Estimated Wait Time (EWT).} The predicted duration a user must wait before being served, calculated using service rate, queue length, and AI-based predictive models. In this study, EWT is displayed to students and staff to inform them about expected waiting periods.
+
+\textbf {Queue Ticket / Digital Token.} A unique identifier issued to users during queue registration used to track their position, progress, and notification updates. In this study, digital tokens are used to manage user queues and send updates via kiosks and mobile applications.
+
+\textbf {Smart Campus.} A technology-driven academic environment that integrates digital systems like Computer Vision, AI, and automation to improve administrative and learning services. In this study, it refers to applying smart campus concepts to enhance queue management and administrative service delivery.
+
+\textbf {User Interface (UI).} The visual layout and interactive elements of the system such as screens, kiosks, dashboards, and display messages viewed by users. In this study, UI refers to the design of the IQMS screens and mobile interfaces for student interaction.
+
+\textbf {User Experience (UX).} The overall experience, satisfaction, accessibility, and ease of interaction that users encounter while using the system. In this study, UX is measured through student surveys and observation of interaction with kiosks and mobile apps.
+
+\textbf {Information Transparency.} The clear and visible distribution of service information---such as queue position, wait time, and service updates---to reduce uncertainty and improve trust. In this study, it refers to how the IQMS communicates queue status and updates to users.
+
+\textbf {Dashboard Analytics.} A graphical interface that summarizes real-time metrics, queue statistics, predictions, and performance indicators for administrative monitoring. In this study, it is used by administrators to monitor queues and make data-driven operational decisions.
+
+\textbf {Predictive Analytics.} A machine-learning approach used to analyze historical and real-time data to estimate queue behavior, wait duration, and peak service hours. In this study, it predicts waiting times and peak periods to optimize staff allocation.
+
+\textbf {Dynamic Resource Allocation.} A method in which the system automatically recommends or assigns counters or personnel based on real-time queue load and predicted demand. In this study, it ensures that staff are efficiently assigned to service points based on actual queue conditions.
+
+\textbf {Human-Computer Interaction (HCI).} The study and design principle that ensures system interfaces are intuitive, accessible, and user-friendly to support effective interaction. In this study, HCI principles guide the design of kiosks and mobile interfaces for easy student use.
+
+\textbf {Technology Acceptance Model (TAM).} A behavioral model stating that users' acceptance of technology depends on perceived usefulness and ease of use. In this study, TAM is used to assess how students and staff perceive and accept the IQMS.
+
+\textbf {Virtual Queueing.} A digital queue method where users can join the line without physically waiting onsite, receiving updates remotely through notifications. In this study, it allows students to register and monitor queues via mobile applications.
+
+\textbf {Mixed-Methods Evaluation.} An assessment approach combining quantitative data (waiting time metrics) and qualitative feedback (satisfaction surveys) for system analysis. In this study, it evaluates the IQMS using both actual wait times and user satisfaction data.
+
+\textbf {Accessibility Design.} A design approach that ensures user interfaces and kiosks are usable by diverse users, including those with low digital literacy or disabilities. In this study, it ensures that the system is inclusive and easy to use for all students.
+
+\clearpage
+
+%-----------------------------
+% Chapter 2
+%-----------------------------
+\chapter{Methodology}
+
+This section outlines the research methodology. It covers the research design, participants, location, data collection methods and tools, ethical considerations, statistical analysis, project timeline, and validation methods to ensure the reliability of the findings.
+
+\section{Research Design}
+This study adopted a developmental-descriptive research design to document current healthcare practices, identify operational challenges, and develop a telemedicine solution suited to the needs of Barangay Panicuason RHU. Data were collected through surveys, interviews, observations, and document analysis, following four phases: preparation, assessment, data collection, and analysis.
+
+\section{Population and Sampling}
+This study involved two respondent groups. The first group comprised the 13 health facility personnel of Barangay Panicuason Rural Health Unit, selected through total enumeration as the primary end-users responsible for patient records management, health worker scheduling, and appointment handling. This group consisted of 7 Dental Health Workers, 1 Midwife, 1 Encoder, 1 Barangay Nutrition Scholar (BNS), 1 Supplemental Feeding Volunteer (SFV), 1 Community-Based Rehabilitation Specialist (CBRS), and 1 Barangay Social Welfare Aide (BSWA). Total enumeration was used for this group given the small and clearly defined population of facility personnel, allowing the study to capture data from all individuals directly responsible for the current manual processes under investigation.
+
+The second group comprised rural resident-users of Barangay Panicuason, included as co-primary respondents consistent with the study's user-centered focus. This group was selected through purposive sampling, limited to residents with direct experience accessing the barangay health facility, since the study required respondents who could meaningfully evaluate the system's relevance to their actual healthcare-seeking behavior rather than a random cross-section of the general population. A minimum sample size of 80 respondents was targeted for this group, determined through Slovin's formula based on the barangay's total population.
+
+
+% ============================================================
+% RESEARCH LOCALE
+% ============================================================
+
+\subsection{Research Locale}
+
+ The study was conducted at Barangay Panicuason Rural Health Unit in Naga City, Camarines Sur, a barangay situated outside the urban center and characterized
+by limited specialist availability, long travel distances to medical facilities, and insuﬀicient healthcare infrastructure. The facility served as the primary healthcare provider for residents of Barangay Panicuason, offering basic services including primary care, maternal and child health, immunization, and disease prevention, and referring cases requiring specialized care to hospitals in Naga City proper.
+
+\subsection{Data Gathering Procedure}
+
+\indent This section describes the methods and tools the researchers used to capture 
+data from stakeholders essential to this study.
+
+\indent \textbf{Preparation Phase.} The researchers secured formal permissions from 
+barangay officials and local health officers, prepared consent forms, and coordinated 
+with community leaders to schedule observation and interview dates within the first 
+two weeks.
+
+\indent \textbf{Document Analysis.} The researchers examined health records, referral 
+systems, and community health profiles from barangay health stations to document current 
+healthcare access patterns and identify existing challenges.
+
+\indent \textbf{Direct Observation.} The researchers observed and recorded how the 
+health facility personnel managed patient consultations, handled records, and coordinated 
+scheduling and appointments in their actual work setting.
+
+ \textbf{Surveys.} A structured questionnaire was administered to all 13 health 
+facility personnel to gather data on current practices, encountered challenges, importance 
+of proposed system features, and level of system acceptability.
+
+ \textbf{Interviews.} One-on-one interviews lasting 30 to 45 minutes were 
+conducted with the 13 health facility personnel of Barangay Panicuason Rural Health Unit 
+to explore current healthcare practices, operational challenges, and readiness for a 
+telemedicine solution.
+
+ \textbf{Data Analysis and Documentation.} Survey responses were tallied and 
+computed using weighted mean and frequency distribution, while interview data were 
+organized by themes and used as the basis for the final findings and recommendations.
+
+\section{Research Instrument}
+
+\indent The study was used various research instruments to collect accurate and relevant data from participants. These instruments are designed to gather both qualitative and quantitative information to gather specific information that will help us understand the current healthcare access situation and identify what is needed for an effective telemedicine platform.
+
+\textbf{Interview Guides.} Researchers will prepare interview guides for rural residents 
+of Barangay Panicuason covering healthcare experiences, travel distance to facilities, 
+medical costs including transportation, common health problems, mobile and internet 
+access, technology comfort level, and desired telemedicine features. For health center 
+staff, guides will cover record-keeping systems, data management challenges, internet 
+connectivity, available devices, and infrastructure needs. All guides will include 
+follow-up questions to explore key points further.
+
+\textbf{Survey Questionnaires.} For healthcare providers and health workers, the 
+questionnaire covers demographic profile, years of experience, and current practices 
+in patient records management, doctor scheduling, and appointment systems using a 
+5-point frequency scale. It also addresses challenges encountered in each of these 
+areas, the importance of proposed system features such as digital record storage, 
+automated scheduling, online appointment booking, and role-based access control, and 
+the perceived level of system acceptability in terms of usability, reliability, and 
+data security.
+
+\section{Ethical Considerations}
+
+This research will follow strict ethical guidelines to protect all participants and 
+ensure responsible handling of operational data. The following measures will be 
+implemented:
+
+\textbf{Voluntary Participation.} Participation was completely voluntary, with no 
+pressure or undue incentives influencing the decision to join. Participants may skip 
+any question or withdraw at any time without consequences or effect on their access 
+to healthcare services.
+
+\textbf{Informed Consent.} All participants received detailed information covering 
+the study's purpose, data collection and use, potential risks and benefits, 
+confidentiality measures, and the right to withdraw before agreeing to participate. 
+Those who agreed signed an informed consent form.
+
+\textbf{Parental/Guardian Consent and Minor Assent.} For participants under 18, 
+written parental or guardian consent will be obtained prior to any research 
+involvement, and minors aged 7--17 will provide written assent after receiving 
+age-appropriate study information. Minors may decline participation even if parents 
+have given consent.
+
+\textbf{Consent from Barangay Health Workers (BHWs).} BHWs will sign informed 
+consent forms acknowledging permission to collect and use their personal information, 
+professional insights, and community health observations. The form will clarify how 
+their contributions will be used and ensure their information is protected under 
+data privacy regulations.
+
+\textbf{Privacy and Confidentiality.} Individual identities were not revealed without 
+explicit written permission, and all interview recordings and transcripts were stored 
+in password-protected files accessible only to the research team. Researchers will 
+not photograph or record any actual patient medical records containing private health 
+information.
+
+\textbf{Data Protection.} All research data will be handled in accordance with the 
+Data Privacy Act of 2012 (Republic Act No. 10173), with personal identifiers removed 
+and survey responses kept anonymous. All data will be securely destroyed after thesis 
+completion and any required retention period.
+
+\textbf{Minimizing Risk.} Research procedures present minimal risk, and researchers 
+will travel to participants' communities to reduce inconvenience. If participants feel 
+uncomfortable during interviews, sessions will be paused or ended immediately with 
+appropriate referrals provided if needed.
+
+\textbf{Cultural Sensitivity.} Researchers will approach all interactions with 
+cultural humility and respect for local practices, collaborating with community 
+leaders to ensure research activities are culturally appropriate and scheduled at 
+convenient times.
+
+\textbf{Researcher Responsibilities.} The research team is committed to accurately 
+recording and reporting all data without fabrication or selective omission, properly 
+citing all sources, and honestly reporting the research process including challenges 
+and limitations. Findings will be shared with participating communities upon request.
+
+\subsection{Statistical Tools}
+
+This section explains how we will analyze and interpret the collected data to answer 
+the research questions.
+
+\subsubsection{Descriptive Statistics}
+
+The study employed descriptive statistical methods to summarize and describe the 
+characteristics of the sample and their responses. The following descriptive 
+statistics were used: percentage, frequency distribution, and weighted mean.
+
+\textbf{Percentage.} To show the proportion of respondents who chose each answer 
+option, we will calculate percentages using the formula:
+
+\begin{equation*}
+    \text{Percentage} = \frac{f}{N} \times 100
+\end{equation*}
+
+\noindent where:
+\begin{itemize}[label={}, leftmargin=0pt, itemsep=0pt]
+    \item $f$ = frequency or number of responses for a specific option
+    \item $N$ = total number of respondents
+\end{itemize}
+
+For example, if 45 out of 60 rural residents say they want mobile access to health 
+records, the percentage would be calculated as $(45/60) \times 100 = 75\%$.
+
+\textbf{Frequency Distribution.} We will create frequency tables displaying how many 
+respondents selected each response option. For instance, for a satisfaction question 
+with a 5-point scale, the frequency distribution might be presented as:
+
+\begin{table}[h]
+    \centering
+    \caption{Frequency Distribution}
+    \label{tab:frequency_distribution}
+    \begin{tabular}{ccc} % Removed vertical bars (|) for the clean layout
+        \toprule
+        \textbf{Response Category} & \textbf{Number of Respondents} & \textbf{Percentage} \\
+        \midrule % Line sits cleanly below the header row
+        Very Satisfied      & 5  & 8.3\%  \\ 
+        Satisfied           & 25 & 41.7\% \\ 
+        Neutral             & 15 & 25.0\% \\ 
+        Dissatisfied        & 10 & 16.7\% \\ 
+        Very Dissatisfied   & 5  & 8.3\%  \\
+        \textbf{Total}      & \textbf{60} & \textbf{100\%} \\
+        \bottomrule % Final closing line at the bottom
+    \end{tabular}
+\end{table}
+
+\textbf{Weighted Mean.} For Likert-scale items where we want to account for the 
+frequency of each response, we will calculate the weighted mean using the formula:
+
+\begin{equation*}
+    \text{Weighted Mean} = \frac{\Sigma(W \times f)}{N}
+\end{equation*}
+
+\noindent where:
+\begin{itemize}[label={}, leftmargin=0pt, itemsep=0pt]
+    \item $W$ = weight or scale value (1--5 for a 5-point Likert scale)
+    \item $f$ = frequency or number of respondents who chose that value
+    \item $N$ = total number of respondents
+    \item $\Sigma$ = summation symbol
+\end{itemize}
+
+%  \section{Statistical Treatment of Data}
+
+% The data gathered will be interpreted using a five-point Likert scale to measure the respondents' attitudes, opinions, perceptions, and preferences regarding the user-centered telemedicine system. 
+	
+% Interpretation Scale. To interpret the weighted mean values obtained from Likert-scale questions, the following scale will be used
+
+% \begin{table}[h]
+%     \centering
+%     \caption{Frequency Distribution}
+%     \label{tab:frequency_distribution}
+%     \begin{tabular}{lcc} % Removed vertical bars (|) and adjusted alignment for clean look
+%         \toprule
+%         \textbf{Response Category} & \textbf{Number of Respondents} & \textbf{Percentage} \\
+%         \midrule % This line sits directly under the header row
+%         Very Satisfied      & 5  & 8.3\%  \\ 
+%         Satisfied           & 25 & 41.7\% \\ 
+%         Neutral             & 15 & 25.0\% \\ 
+%         Dissatisfied        & 10 & 16.7\% \\ 
+%         Very Dissatisfied   & 5  & 8.3\%  \\
+%         \textbf{Total}      & \textbf{60} & \textbf{100\%} \\
+%         \bottomrule % This is the final closing line at the very bottom
+%     \end{tabular}
+% \end{table}
+
+\section{System Design and Architecture}
+
+The system design process employed several modeling techniques such as use case and system workflows to map user interactions and the system architecture.
+
+\textbf{Technology Stack.} The E-Health for All system was developed using PHP, HTML, CSS, and JavaScript for the web-based platform, with Supabase serving as the cloud database for centralized data storage, authentication, and real-time synchronization. This stack was selected for its low infrastructure overhead and broad compatibility, allowing the system to run on Windows, macOS, and Linux for the web-based platform, and on Android and iOS for the mobile application used by rural residents and health workers in the field.
+
+\textbf{Connectivity Approach.} The system does not resolve the underlying internet infrastructure limitations of Barangay Panicuason actual connectivity conditions in the area remain outside the study's control, as stated in the Scope and Delimitation. What the system does provide is an offline-capable data entry mode on the mobile side, allowing health workers to continue recording patient information, vitals, and consultation notes even when internet access is interrupted. Once connectivity is restored, locally stored records are automatically synced to the central Supabase database. This design mitigates the operational impact of intermittent connectivity on day-to-day recording and access tasks, rather than addressing the broader infrastructure problem of unreliable or absent internet service in the barangay itself.
+
+\subsection*{Use Case}
+
+The use case diagram in the study showed the specific interactions between patients, 
+healthcare providers, and system administrators with the system. It defined the actions 
+between these actors and the use cases, along with the functional requirements. The use 
+case model for this study was shown in Figure~\ref{fig:use_case_diagram}.
+
+In the use case diagram, there were three actors: patients, doctors, and system 
+administrators. All actors can register and log in to the system. Patients and doctors 
+utilize a mobile application, while system administrators access a dedicated website 
+application.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{UseCaseDiagram.jpg}
+    \caption{Use Case Diagram}
+    \label{fig:use_case_diagram}
+\end{figure}
+
+\subsubsection{System Workflows}
+
+The system workflows illustrate the sequential processes and decision points for key operations within the E-Health for All Telemedicine System. These workflows ensure standardized procedures and guide users through various system functionalities.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{System_Workflows}
+    \caption{System Workflow Diagram}
+    \label{fig:workflows}
+\end{figure}
+
+\textbf{Patient Flow.} The patient workflow begins with login or registration. After authentication, patients can select services, check appointment availability, choose dates and times, confirm bookings, receive reminders, and complete their system appointments. This streamlined process ensures efficient access to healthcare services.
+
+\textbf{Health Worker Flow.} Health workers log into the web interface, search patients by name or QR code, update medical records, manage diagnosis and prescriptions, sync data to the database, and complete patient consultations. This workflow maintains accurate and up-to-date patient information.
+
+\textbf{Admin Flow.} Administrators access the admin portal through secure authentication, manage users by creating or deactivating accounts, conduct audit log reviews, perform system configuration, generate analytical reports on health data, and monitor overall system performance. These workflows ensure proper governance and system integrity.
+
+\subsubsection{DFD Level 0}
+
+The Context Diagram shows the entire data flow of the E-Health for All Telemedicine System, where four external entities --- Patient, Doctor, BHW, and Admin exchange certain data with the system. This diagram serves as a foundation for designing the system. The data coming into and out of the system is clearly represented.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{dfd_level0}
+    \caption{DFD Level 0}
+    \label{fig:dfd_level0}
+\end{figure}
+
+\subsubsection{DFD Level 1}
+
+The DFD Level 1 data flow diagram further breaks down the system into its main functions. For now we're comprising eight major processes that Health Connect features on its web and mobile platforms, which included Registration \& Authentication, Appointment Management, Video Consultation, Medical Record Management, e-Prescription, Vitals Management, Notification Management, and Audit \& Security. The processes outline the movement of information among the various external entities and databases.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{dfd_level1_fixed}
+    \caption{DFD Level 1}
+    \label{fig:dfd_level1}
+\end{figure}
+
+% \section{Software Development Process}
+
+\subsubsection{Entity Relationship Diagram}
+
+The ERD visualizes each entity within the database design of the system, which is characterized by nine (9) entities, namely Users, Doctors, Appointments, Medical Records, Prescriptions, Vitals, Notifications, Audit Logs, and Medical Files. It further shows how these entities are linked through their relationships and foreign keys, thus representing the logical arrangement of the database within the system.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{User-DrivenHealthcare}
+    \caption{Entity Relationship Diagram}
+    \label{fig:erd}
+\end{figure}
+
+\subsubsection{Data Schema}
+The Data Schema presents the complete database structure of the E-Health for All Telemedicine System, detailing the tables, fields, data types, and constraints that define how data is stored and managed within the system. It complements the ERD by providing a more technical view of the database design, showing the specific attributes and relationships that support the system's core functionalities.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{data schema}
+    \caption{Data Schema}
+    \label{fig:dataschema}
+\end{figure}
+
+\subsection{System Architecture}	
+
+\indent The E-Health for All Telemedicine System architecture, shown in Figure 5, connects three stakeholder groups healthcare providers, rural residents, and system administrators through a layered structure spanning user devices, connectivity, application services, integration, and data storage. The system is built around three core components in the Application Layer: (1) a web-based platform for healthcare providers, offering secure login, patient records management, clinical documentation, and digital prescription and certificate generation; (2) a mobile application for rural residents, enabling appointment scheduling, medical record access, video consultations, SMS reminders, health education content, and emergency contacts; and (3) a doctor and health worker scheduling system, maintaining provider profiles including specializations, availability, and consultation details 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{E-Health_for_All_System_design_Architecture}
+    \caption {System Design Architecture of E-Health for All System}
+    \label{fig:architecture}
+\end{figure}
+
+% \subsection{Data Flow Diagrams}
+
+\section{Validation and Testing Methods}
+
+To ensure the comprehensive validation and testing of the system's quality and reliability, multiple testing methodologies were employed throughout the development process.
+
+\textbf{Functionality Testing.} Unit testing verified individual components using test cases covering normal inputs, edge cases, and invalid inputs. Integration testing confirmed that data flowed correctly between modules and that integrated components worked together as expected. This approach ensured that each system component functioned correctly both independently and as part of the integrated system.
+
+\textbf{User Acceptance Testing.} This involved healthcare providers evaluating whether the system met their needs through a structured checklist validating that all functional requirements were implemented. Healthcare workers and administrators participated in real-world scenario testing to verify that the system addressed their operational needs and workflow requirements.
+
+\textbf{Performance Testing.} Load testing simulated 10, 20, and 30 concurrent users to ensure acceptable performance under typical and peak loads. Response time was tracked with a target of under 3 seconds for most operations, ensuring a smooth user experience. Offline functionality testing confirmed data entry and retrieval capabilities without internet connection, which is critical for rural healthcare settings with intermittent connectivity.
+
+\textbf{Security Testing.} Access control verification confirmed users could only access role-appropriate features and that unauthorized access attempts were blocked. Data encryption validation confirmed sensitive information was encrypted in transit via HTTPS and at rest in the database. Passwords were hashed using strong algorithms, and sessions were tested for appropriate expiration and hijacking prevention to protect patient confidentiality and data integrity.
+
+\textbf{Usability Testing.} The think-aloud protocol was conducted with 5 to 8 representative users who verbalized their thoughts while completing tasks as researchers observed and recorded difficulties and errors. Metrics included task completion rates, time on-task, error rates, and post-task satisfaction ratings. This qualitative and quantitative approach provided insights into user experience and identified areas for interface improvement.
+
+
+\clearpage
+
+%-----------------------------
+% Chapter 3
+%-----------------------------
+\chapter{Results and Discussions}
+This chapter presents the findings gathered from the survey administered to the health facility personnel and the barangay residents of Barangay Panicuason Rural Health Unit in Naga City. Results are organized according to the specific research objectives: (1) current healthcare practices, (2) challenges encountered in the current system, (3) system design plans as the prototype response to identified challenges, and (4) the level of acceptability of the initial prototype in terms of usability, reliability, and data security. Data are presented using weighted mean scores and frequency distributions, discussed in relation to the reviewed literature, and linked to the theoretical frameworks guiding the study. 
+
+\section{Profile of Respondents}
+A total of 93 respondents completed the survey questionnaire during the data-gathering phase. Table 3.1 presents the demographic profile. 
+
+The respondents were predominantly of rural resident-users (86.02\%), with health facility personnel comprising the remaining 13.98\% consistent with the study's aim to prioritize the perspective of the system's primary end-users while still capturing the operational viewpoint of healthcare providers. The respondents were predominantly female (58.06\%), reflecting both the largely female composition of the community health workforce in Panicuason and the higher representation of women among surveyed residents. The majority fell within the 35--44 age bracket (41.94\%), followed by the 25--34 bracket (26.88\%), indicating a relatively young to middle-aged population that may be more receptive to adopting digital health technologies.
+ 
+In terms of healthcare-seeking behavior, most respondents visited the RHU 4--6 times (36.56\%) or 2--3 times (35.48\%) within the month, suggesting regular engagement with the facility rather than occasional or emergency-only use. Regarding digital readiness, over half of the respondents (51.61\%) reported owning a smartphone with mobile data, while 39.78\% relied on Wi-Fi or shared data access, and only 8.60\% had no personal smartphone indicating that the majority of the sampled population already possesses some level of mobile connectivity, a favorable condition for the proposed system's adoption. Travel time to the RHU was most commonly 15--30 minutes (41.94\%), with a further 17.20\% traveling more than an hour, underscoring that access barriers remain a relevant concern for a meaningful portion of the population the system is intended to serve.
+
+These demographics align with the Task--Technology Fit (TTF) theory's premise that technology adoption is influenced by users' familiarity with and access to the tools required to perform relevant tasks \cite{ref42} in this case, the relatively high existing smartphone and data access among respondents suggests a favorable fit between the target population and a mobile-based telemedicine solution.
+\begin{table}[H]
+    \centering
+    \caption{Demographic Profile of Survey Respondents}
+    \label{tab:demographic_profile}
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{Category} & \textbf{Frequency (f)} & \textbf{Percentage (\%)} \\
+        \midrule
+        
+        % RESPONDENT TYPE
+        \multicolumn{3}{l}{\textbf{Respondent Type}} \\
+        \hspace{1em} Health Facility & 13 & 13.98\% \\
+        \hspace{1em} Resident        & 80 & 86.02\% \\
+        \hspace{1em} \textbf{Total}  & \textbf{93} & \textbf{100\%} \\
+        \addlinespace
+        
+        % SECTION A
+        \multicolumn{3}{l}{\textbf{A. Sex}} \\
+        \hspace{1em} Female & 54 & 58.06\% \\
+        \hspace{1em} Male   & 39 & 41.94\% \\
+        \hspace{1em} \textbf{Total} & \textbf{93} & \textbf{100\%} \\
+        \addlinespace
+        
+        % SECTION B
+        \multicolumn{3}{l}{\textbf{B. Age Bracket}} \\
+        \hspace{1em} Below 25 years old      & 10 & 10.75\% \\
+        \hspace{1em} 25 -- 34 years old      & 25 & 26.88\% \\
+        \hspace{1em} 35 -- 44 years old      & 39 & 41.94\% \\
+        \hspace{1em} 45 -- 59 years old      & 17 & 18.28\% \\
+        \hspace{1em} 65 years old and above  & 2  & 2.15\%  \\
+        \hspace{1em} \textbf{Total}          & \textbf{93} & \textbf{100\%} \\
+        \addlinespace
+        
+        % SECTION C
+        \multicolumn{3}{l}{\textbf{C. Frequency of Visits to Brgy. Panicuason RHU}} \\
+        \hspace{1em} Once at a time     & 11 & 11.83\% \\
+        \hspace{1em} 2 -- 3 times       & 33 & 35.48\% \\
+        \hspace{1em} 4 -- 6 times       & 34 & 36.56\% \\
+        \hspace{1em} More than 6 times  & 15 & 16.13\% \\
+        \hspace{1em} \textbf{Total}     & \textbf{93} & \textbf{100\%} \\
+        \addlinespace
+        
+        % SECTION D
+        \multicolumn{3}{l}{\textbf{D. Access to Mobile Data and Internet}} \\
+        \hspace{1em} Yes, I own a smartphone with mobile data & 48 & 51.61\% \\
+        \hspace{1em} Yes, but I rely on Wi-Fi/shared data      & 37 & 39.78\% \\
+        \hspace{1em} No personal smartphone                   & 8  & 8.60\%  \\
+        \hspace{1em} \textbf{Total}                           & \textbf{93} & \textbf{100\%} \\
+        \addlinespace
+        
+        % SECTION E
+        \multicolumn{3}{l}{\textbf{E. Travel Time to RHU}} \\
+        \hspace{1em} Less than 15 mins  & 25 & 26.88\% \\
+        \hspace{1em} 15 -- 30 mins      & 39 & 41.94\% \\
+        \hspace{1em} 30 -- 60 mins      & 13 & 13.98\% \\
+        \hspace{1em} More than 1 hour   & 16 & 17.20\% \\
+        \hspace{1em} \textbf{Total}     & \textbf{93} & \textbf{100\%} \\
+        
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+% The respondents were predominantly female (92.3\%), consistent with the largely female composition of community health workforces in Panicuason. The majority were aged 35--44 (46.2\%), indicating a relatively young and potentially technology-receptive group. In terms of work experience, most respondents had 10 years or more of service (61.54\%), followed by those with 4--6 years (30.77\%), while only a small proportion had 1--3 years (7.69\%) and none fell within the 7--9 year range. This suggests that the respondents generally possess substantial professional experience, enabling them to provide informed and reliable assessments of current operational practices. These demographics align with the Task--Technology Fit (TTF) theory's premise that technology adoption is influenced by users' experiential familiarity with their work tasks \cite{ref53}.
+
+\newpage
+\subsection{Current Practices of Rural Healthcare Providers}
+
+\indent Research Question 1 asked: ``What are the current practices of rural healthcare providers with respect to patient records management, doctor and health worker scheduling, and appointment systems?'' Table 3.2 presents the weighted mean scores for each indicator.
+With both healthcare providers and rural resident-users now represented in the sample (n=93), the results show a markedly different pattern from the facility-only findings reported previously. Patient records management remains the strongest domain (WM = 3.43, Often), but the overall rating dropped from the earlier ``Always'' (WM = 4.60) to ``Often,'' driven largely by resident perceptions of their own access to records (Item 2.5, WM = 2.92, Sometimes) a dimension the facility-only survey never captured, since staff were only assessing their own internal documentation practices, not what patients experience on the receiving end.
+
+Doctor scheduling and appointment systems both declined to ``Sometimes'' (WM = 3.02 and 2.93, respectively), compared to ``Often'' in the facility-only round. This gap suggests that while staff perceive their own scheduling and booking processes as reasonably functional, residents do not experience the same level of reliability from their side of the interaction they are less confident that appointments are booked conveniently (Item 2.15, WM = 2.98) or that availability is known to them in advance (Item 2.7, WM = 3.08).
+
+This divergence between provider self-assessment and patient-facing experience is consistent with [CITATION NEEDED --- provider-patient perception gap literature], and reinforces the Task--Technology Fit \cite{ref55} rationale for the proposed system: a digital platform must not only support staff workflows but close the visibility gap that residents currently experience regarding their own records, worker availability, and appointment status.
+
+\begin{table}[H]
+\centering
+\footnotesize\textit{Scale: 5 = Always (4.21--5.00), 4 = Often (3.41--4.20), 3 = Sometimes (2.61--3.40), 2 = Rarely (1.81--2.60), 1 = Never (1.00--1.80)}
+\label{tab:current_practices}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Indicator} & \textbf{WM} & \textbf{Interpretation} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{A. Patient Records Management}} \\
+\quad 2.1 Records documented immediately after each consultation             & 3.86 & Often \\
+\quad 2.2 Records stored in an organized and accessible manner               & 3.31 & Sometimes \\
+\quad 2.3 Records updated regularly to reflect current health status         & 3.38 & Sometimes \\
+\quad 2.4 Records retrieved quickly and accurately when needed               & 3.69 & Often \\
+\quad 2.5 Patients able to view, access, or receive a copy of their records  & 2.92 & Sometimes \\
+\quad \textbf{Overall Weighted Mean --- Patient Records Management}          & \textbf{3.43} & \textbf{Often} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{B. Doctor and Health Worker Scheduling}} \\
+\quad 2.6 Schedules planned and communicated in advance                       & 3.11 & Sometimes \\
+\quad 2.7 Availability clearly recorded and accessible to staff               & 3.08 & Sometimes \\
+\quad 2.8 Schedule changes updated and communicated promptly                  & 3.17 & Sometimes \\
+\quad 2.9 Backup/replacement arranged when scheduled worker is unavailable    & 3.31 & Sometimes \\
+\quad 2.10 Schedules managed to minimize conflicts/overlaps                   & 3.42 & Often \\
+\quad \textbf{Overall Weighted Mean --- Doctor Scheduling}                    & \textbf{3.02} & \textbf{Sometimes} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{C. Appointment Systems}} \\
+\quad 2.11 Appointments arranged in an orderly and systematic manner          & 4.50 & Sometimes \\
+\quad 2.12 Patients informed of appointment schedules in advance             & 4.50 & Sometimes \\
+\quad 2.13 Appointment records maintained accurately to avoid double-booking  & 4.30 & Sometimes \\
+\quad 2.14 Patients attended within a reasonable waiting time                 & 2.98 & Sometimes \\
+\quad 2.15 Appointments can be booked/confirmed conveniently                  & 4.20 & Sometimes \\
+\quad \textbf{Overall Weighted Mean --- Appointment Systems}                  & \textbf{3.03} & \textbf{Sometimes} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Current Practices of Rural Healthcare Providers}
+\end{table}
+
+% Scheduling challenges averaged 3.26 (Sometimes overall), with the lack of a clear or updated availability record including uncommunicated changes scoring highest at 3.62 (Often), followed closely by health workers being assigned to multiple duties simultaneously at 3.72 (Often). This aligns with Mendoza, Cruz, and Santos \cite{ref28}, who found that the absence of a centralized scheduling system in Philippine rural health units contributes to coordination failures, particularly during peak consultation periods. Appointment system challenges averaged 3.58 (Often) the most severe domain in the combined results with the absence of an organized tracking system (WM = 3.73) and double-bookings or missed appointments without notice (WM = 3.69) as the most persistent issues. Del Rosario \cite{ref50} similarly found that the lack of digital appointment management in Philippine rural health centers contributes significantly to extended waiting times and patient dissatisfaction, a pattern reflected here in the elevated rating for long waiting times before being attended to (WM = 3.40).
+
+% These elevated ratings higher than the facility-only round, where the same domains averaged only ``Sometimes'' indicate that rural resident-users experience appointment-related breakdowns more acutely than facility staff report experiencing them from their own operational vantage point. This gap between provider self-assessment and patient-facing experience reinforces that the challenges are not merely occasional lapses but a recurring pattern of inefficiency that compounds over time, particularly in the appointment and scheduling domains. These findings validate the need for a digital solution that addresses record organization, scheduling conflict detection, appointment tracking, and automated reminders all of which are core features of the proposed E-Health for All system.
+\subsection{Challenges Encountered in the Current System}
+
+\indent Research Question 2 asked: ``What are the challenges encountered in the current system?'' Table 3.3 presents the weighted mean scores for each challenge indicator. All challenge indicators were rated in the ``Sometimes'' range (WM = 3.25--3.40), confirming that while problems were not constant, they occurred with enough regularity to warrant systematic intervention. The most frequently cited challenge across domains was the difficulty in organizing and managing patient records (WM = 3.29), consistent with findings by D'Amore et al. \cite{ref12} that paper-based record systems in rural health facilities are particularly susceptible to organizational lapses due to high patient volumes and limited administrative staffing.
+
+\begin{table}[H]
+\centering
+\footnotesize\textit{Scale: 5 = Always (4.21--5.00), 4 = Often (3.41--4.20), 3 = Sometimes (2.61--3.40), 2 = Rarely (1.81--2.60), 1 = Never (1.00--1.80)}
+\label{tab:challenges}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Challenge Indicator} & \textbf{WM} & \textbf{Interpretation} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{A. Patient Records Management}} \\
+\quad 3.1 Patient records are difficult to organize and manage                    & 3.20 & Sometimes \\
+\quad 3.2 Patient records are missing or incomplete                               & 2.99 & Sometimes \\
+\quad 3.3 Records are lost, damaged, or difficult to verify for accuracy          & 3.68 & Often \\
+\quad 3.4 Limited information on what health data is being recorded              & 3.25 & Sometimes \\
+\quad \textbf{Overall Weighted Mean --- Patient Records Challenges}               & \textbf{3.29} & \textbf{Sometimes} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{B. Doctor and Health Worker Scheduling}} \\
+\quad 3.5 Scheduling conflicts among doctors/health workers occur                & 3.06 & Sometimes \\
+\quad 3.6 No clear or updated record of availability                             & 3.62 & Sometimes \\
+\quad 3.7 Health workers assigned to multiple duties simultaneously              & 3.72 & Often \\
+\quad 3.8 Schedule changes not communicated to concerned staff                    & 2.62 & Sometimes \\
+\quad \textbf{Overall Weighted Mean --- Scheduling Challenges}                    & \textbf{3.26} & \textbf{Sometimes} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{C. Appointment Systems}} \\
+\quad 3.9 Patients experience long waiting times before being attended to        & 3.40 & Sometimes \\
+\quad 3.10 Delays in processing patient appointments                             & 3.48 & Often \\
+\quad 3.11 Double-bookings or missed appointments occur                          & 3.69 & Often \\
+\quad 3.12 No organized system for tracking or confirming appointments           & 3.73 & Often \\
+\quad \textbf{Overall Weighted Mean --- Appointment Challenges}                  & \textbf{3.37} & \textbf{Sometimes} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Challenges in Current Healthcare Practices}
+\end{table}
+
+Scheduling challenges averaged 3.26 (Sometimes overall), with the lack of a clear or updated availability record including uncommunicated changes scoring highest at 3.62 (Often), followed closely by health workers being assigned to multiple duties simultaneously at 3.72 (Often). This aligns with Mendoza, Cruz, and Santos \cite{ref28}, who found that the absence of a centralized scheduling system in Philippine rural health units contributes to coordination failures, particularly during peak consultation periods. Appointment system challenges averaged 3.58 (Often) the most severe domain in the combined results with the absence of an organized tracking system (WM = 3.73) and double-bookings or missed appointments without notice (WM = 3.69) as the most persistent issues. Del Rosario \cite{ref50} similarly found that the lack of digital appointment management in Philippine rural health centers contributes significantly to extended waiting times and patient dissatisfaction, a pattern reflected here in the elevated rating for long waiting times before being attended to (WM = 3.40).
+
+These elevated ratings higher than the facility-only round, where the same domains averaged only ``Sometimes'' indicate that rural resident-users experience appointment-related breakdowns more acutely than facility staff report experiencing them from their own operational vantage point. This gap between provider self-assessment and patient-facing experience reinforces that the challenges are not merely occasional lapses but a recurring pattern of inefficiency that compounds over time, particularly in the appointment and scheduling domains. These findings validate the need for a digital solution that addresses record organization, scheduling conflict detection, appointment tracking, and automated reminders all of which are core features of the proposed E-Health for All system.
+
+% -------------------------------------------------------
+\subsection{System Design and Plans for the Prototype}
+
+\indent Research Question 3 asked: “What system can be designed to address the identified challenges?” This section presents the importance ratings for proposed system features. Table 3.4 describes the design plans for the prototype, including the use case, workflow, and database schema. 
+
+\begin{table}[H]
+\centering
+\label{tab:proposed_features}
+\renewcommand{\arraystretch}{1.1}
+\footnotesize\textit{Scale: 5 = Very Important (4.21--5.00), 4 = Important (3.41--4.20), 3 = Moderately Important (2.61--3.40), 2 = Slightly Important (1.81--2.60), 1 = Not Important (1.00--1.80)}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Proposed System Feature} & \textbf{WM} & \textbf{Interpretation} \\
+\midrule
+4.1 Digital storage and easy retrieval of patient records           & 4.50 & Very Important \\
+4.2 Automated doctor/worker scheduling with conflict detection      & 4.50 & Very Important \\
+4.3 Online patient appointment booking                              & 4.60 & Very Important \\
+4.4 Automated appointment reminders and notifications               & 4.80 & Very Important \\
+4.5 Secure login and role-based access control                      & 4.90 & Very Important \\
+\midrule
+\textbf{Overall Weighted Mean}                                      & \textbf{4.66} & \textbf{Very Important} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption {Importance of Proposed Features}
+\end{table}
+
+All five proposed features received ``Very Important'' ratings, with an overall weighted mean of 4.66. Secure login and role-based access control (WM = 4.90) ranked highest, reflecting a strong awareness among health workers of data privacy obligations under the Data Privacy Act of 2012. Automated reminders (WM = 4.80) ranked second, directly addressing the challenge of missed appointments (Item 3.11, WM = 2.70) and long waiting times (Item 3.9, WM = 3.00). Online appointment booking (WM = 4.60) and digital storage (WM = 4.50) also scored highly, validating the core functional design of the proposed system. These ratings are consistent with the TAM framework \cite{ref56}, where perceived usefulness as evidenced by the high importance ratings is a primary determinant of technology adoption intention.
+
+\subsection{Perceived Acceptability of the Proposed System }
+
+\indent Research Question 4 asked: "What is the level of acceptability of the proposed system, as perceived by healthcare providers and rural resident-users, in terms of usability, reliability, and data security?" Table 3.5 presents the weighted mean scores for each indicator. 
+
+\begin{table}[H]
+\centering
+\footnotesize\textit{Scale: 5 = Completely Agree (4.21--5.00), 4 = Agree (3.41--4.20), 3 = Somewhat Agree (2.61--3.40), 2 = Slightly Agree (1.81--2.60), 1 = Not at All Agree (1.00--1.80)}
+\label{tab:acceptability}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Indicator} & \textbf{WM} & \textbf{Interpretation} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{A. Usability}} \\
+\quad 3.13 Easy to learn and navigate                          & 3.99 & Agree \\
+\quad 3.14 Complete tasks with minimal effort                  & 4.12 & Agree \\
+\quad 3.15 Instructions/prompts clear and understandable       & 3.62 & Agree \\
+\quad 3.16 Design appropriate for digital skill level          & 4.21 & Completely Agree \\
+\quad \textbf{Overall Weighted Mean --- Usability}              & \textbf{3.99} & \textbf{Agree} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{B. Reliability}} \\
+\quad 3.17 Works consistently without errors/crashes           & 4.50 & Completely Agree \\
+\quad 3.18 Remains usable during poor connectivity              & 3.99 & Agree \\
+\quad 3.19 Available whenever needed                            & 4.20 & Agree \\
+\quad 3.20 Notifications/reminders accurate and timely          & 3.88 & Agree \\
+\quad \textbf{Overall Weighted Mean --- Reliability}            & \textbf{4.14} & \textbf{Agree} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{C. Data Security}} \\
+\quad 3.21 Trust system to keep health information private     & 4.22 & Completely Agree \\
+\quad 3.22 Believe only authorized personnel can view records   & 3.85 & Agree \\
+\quad 3.23 Comfortable providing personal information           & 3.45 & Agree \\
+\quad 3.24 Believe system will have secure login/authentication & 4.29 & Completely Agree \\
+\quad \textbf{Overall Weighted Mean --- Data Security}          & \textbf{3.99} & \textbf{Agree} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Perceived Acceptability of the Proposed System}
+\end{table}
+
+The proposed system received an overall ``Agree'' rating (WM = 3.99) across all three dimensions, indicating generally favorable anticipated acceptance among both respondent groups. Reliability emerged as the highest-rated dimension (WM = 4.14), with respondents most confident that the system would work consistently without errors or crashes (Item 5.5, WM = 4.50, Completely Agree) --- the highest-scoring individual item in the entire section. This suggests that respondents place particular value on system stability, likely reflecting the frustrations already documented in the current-system challenges (Table 3.3), where unorganized tracking and uncommunicated changes were the most persistent issues.
+
+Usability followed closely (WM = 3.99), with respondents expressing strong confidence that the system's design would match their digital skill level (Item 5.4, WM = 4.21, Completely Agree) and that tasks could be completed with minimal effort (Item 5.2, WM = 4.12, Agree). The comparatively lower rating for instructional clarity (Item 5.3, WM = 3.62, Agree) suggests that while the overall interface is anticipated to be manageable, in-system guidance and prompts may need particular design attention to fully meet user expectations --- a reasonable concern given that a portion of the sample reported limited or shared smartphone access (Table 3.1).
+
+Data Security scored slightly lower than the other two dimensions (WM = 3.86), though still within the ``Agree'' range. Respondents expressed the highest trust that the system would keep health information private (Item 5.9, WM = 4.22, Completely Agree), but were comparatively less comfortable providing personal information through the system itself (Item 5.11, WM = 3.45, Agree) --- the lowest-rated item in Part V. This gap between trusting the system's intent and feeling personally comfortable disclosing information is a common pattern in digital health adoption research and may reflect residual hesitancy toward digital data entry among first-time or infrequent technology users, consistent with the study's earlier finding that a meaningful share of resident respondents relies on shared or limited connectivity (Table 3.1).
+
+Overall, these findings support the Technology Acceptance Model, in that both perceived usefulness (reflected in the high importance ratings in Table 3.4) and perceived ease of use (reflected in the Usability sub-scale here) converge with adequate trust in reliability and security to indicate a favorable disposition toward adopting the proposed E-Health for All system among both healthcare providers and rural resident-users.
+
+% \chapter*{Results and Discussions}
+% This section provides a concise synthesis of the study's key findings and reflects on their broader significance in advancing rural healthcare delivery through digital innovation.
+
+% This study aimed to design and develop E-Health for All, a user-centered telemedicine platform for Barangay Panicuason Rural Health Unit in Naga City, addressing inefficiencies in patient records management, health worker scheduling, and appointment systems. Using a developmental-descriptive research design, data were gathered from 13 health facility personnel to document current practices, identify challenges, evaluate proposed system features, and assess prototype acceptability.
+
+% The findings reveal that health facility personnel had already established strong baseline practices across all three operational domains, indicating a structured and disciplined workforce. This is significant because it confirms that the E-Health for All system enters a context where existing workflows are well-established, making adoption more likely when the platform is designed to enhance rather than replace familiar routines consistent with the Task–Technology Fit (TTF) theory.
+
+% Despite these strong practices, recurring challenges were confirmed across all domains. Difficulties in organizing physical records, the absence of a systematic appointment tracking mechanism, and scheduling conflicts among health workers were the most consistently reported concerns. These findings collectively validate the study's core rationale that an integrated telemedicine platform is both necessary and timely for a facility of this scale and context.
+
+% All proposed system features were rated very important, with data security, automated reminders, and online booking receiving the highest endorsements — directly corresponding to the identified challenges. This alignment confirms that the system is grounded in users' actual needs, consistent with the Technology Acceptance Model (TAM). The respondent profile, predominantly female, relatively young, and experienced, further supports readiness for a managed digital transition as affirmed by the Diffusion of Innovations (DOI) theory.
+
+% Overall, this study demonstrates that E-Health for All is both technically feasible and operationally justified for Barangay Panicuason RHU. Beyond its immediate application, it offers a replicable framework for designing context-sensitive telemedicine solutions in similarly resource-limited settings.
+
+
+% \section*{Recomendations}
+% Based on the conclusions of this study, the following recommendations are directed to the key stakeholders involved in the deployment, improvement, and continued research of the E-Health for All telemedicine system.
+
+% For the Barangay Panicuason Health Unit and the Local Government Unit. The local government unit should pursue the formal adoption and full deployment of the E-Health for All system by allocating a dedicated budget for device procurement, internet connectivity, and system maintenance. A structured onboarding program should be conducted prior to deployment to ensure a smooth transition from paper-based to digital operations.
+
+% For System Developers and Future Development Teams. Developers should expand the system in future iterations to include laboratory result integration, pharmacy management, a patient-facing portal, and iOS compatibility. Offline functionality should be strengthened to maintain data access during internet outages, and all development must strictly uphold the Data Privacy Act of 2012 through encryption, role-based access controls, and regular security auditing.
+
+% For Health Facility Personnel. Health workers should actively engage during the pilot phase by documenting usability issues and communicating improvement suggestions through formal feedback channels. Their sustained adoption and cooperation will be essential to the system's continuous refinement and long-term success.
+
+% For Academic Researchers and Future Studies. Future researchers should extend this study by including community residents as secondary respondents and conducting longitudinal evaluations to assess long-term system impact. Comparative studies across multiple rural health units are recommended, and future instruments should incorporate the System Usability Scale (SUS) and Cronbach's Alpha to strengthen methodological rigor.
+
+% For Policymakers and the Department of Health. The Department of Health should consider the E-Health for All model as a pilot reference for rural health unit digitalization nationwide. Policymakers should provide technical and financial support to local government units pursuing similar initiatives and establish interoperability standards to connect locally developed platforms with national health systems such as iHOMIS and the National Health Data Repository.
+
+
+%\subsection{Problem 2}
+
+%\subsection{Problem 3}
+
+%\section{Design and System Plans}
+
+%\section{Summary of Findings}
+
+%\section{Conclusions}
+
+%\section{Recommendations}
+
+%-----------------------------
+% References
+%-----------------------------
+
+\clearpage
+\nocite{*}
+\printbibliography
+
+
+\clearpage
+
+\chapter*{Appendices}
+
+\begin{figure}[H]
+    \caption*{Appendices A-1}
+    \centering
+    \includegraphics[width=0.95\textwidth]{1}
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-2}
+    \centering
+    \includegraphics[width=0.95\textwidth]{2}
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-3}
+    \centering
+    \includegraphics[width=0.95\textwidth]{3}
+
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-4}
+    \centering
+    \includegraphics[width=0.95\textwidth]{4}
+    
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-5}
+    \centering
+    \includegraphics[width=0.95\textwidth]{1 survey(2).png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-6}
+    \centering
+    \includegraphics[width=0.95\textwidth]{2 survey(3).png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-7}
+    \centering
+    \includegraphics[width=0.95\textwidth]{3 survey(4).png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-8}
+    \centering
+    \includegraphics[width=0.95\textwidth]{4 survey(5).png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-9}
+    \centering
+    \includegraphics[width=0.95\textwidth]{5 survey(6).png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-12}
+    \centering
+    \includegraphics[width=0.95\textwidth]{12}
+\end{figure}
+
+\begin{figure}[H]
+    \caption*{Appendices A-13}
+    \centering
+    \includegraphics[width=0.95\textwidth]{13}
+\end{figure}
+
+\nocite{ref70}
+\nocite{ref71}
+\nocite{ref72}
+\end{document}

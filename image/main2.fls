@@ -1,0 +1,4 @@
+PWD c:\Users\deveg\OneDrive\Desktop\THESIS 2026\image
+INPUT C:\Users\deveg\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\deveg\OneDrive\Desktop\THESIS 2026\image\main2.tex
+OUTPUT main2.log
